@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard Frame</title>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        height: 96%;
+      }
+      .message {
+        font-size: 13em;
+        text-align: center;
+      }
+      .dashboard {
+        display: flex;
+        align-content: stretch;
+        height: 100%;
+      }
+      .dashboard > .section {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-content: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      .chart {
+        background-color: lightgray;
+        margin: 4px;
+        border-radius: 3px;
+      }
+      .context,
+      .focus {
+        height: 50%;
+      }
+      .detail {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="section">
+        <div class="context chart">context</div>
+        <div class="focus chart">focus</div>
+      </div>
+      <div class="section">
+        <div class="detail chart">detail</div>
+      </div>
+    </div>
+  </body>
+</html>
