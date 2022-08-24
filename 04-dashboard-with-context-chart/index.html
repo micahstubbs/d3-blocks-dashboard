@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard with Context Chart</title>
+    <!-- suppress favicon request -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <!--<script src='3d-force-graph.js'></script>-->
+    <style>
+      html {
+        height: 100%;
+        width: 100%;
+      }
+      /* less than 100% to prevent scrollbar */
+      body {
+        height: 96%;
+        width: 100%;
+        background-color: rgb(79, 76, 76);
+      }
+      .dashboard {
+        display: flex;
+        align-content: stretch;
+        height: 100%;
+        width: 100%;
+      }
+      .dashboard > .section {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-content: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+      }
+      .chart {
+        background-color: rgb(29, 27, 27);
+        margin: 4px;
+        border-radius: 3px;
+        font-size: 4em;
+        text-align: center;
+        color: rgb(221, 229, 235);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .context,
+      .focus {
+        height: 50%;
+        display: flex;
+      }
+      .detail {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="section">
+        <div class="context chart">
+          <div id="3d-graph"></div>
+        </div>
+        <div class="focus chart">focus</div>
+      </div>
+      <div class="section">
+        <div class="detail chart">detail</div>
+      </div>
+    </div>
+    <script src="context.js"></script>
+  </body>
+</html>
