@@ -1,5 +1,5 @@
-const canvas = document.querySelector('canvas');
-const context = canvas.getContext('2d');
+const canvas = document.querySelector("canvas");
+const context = canvas.getContext("2d");
 const width = canvas.width;
 const height = canvas.height;
 const searchRadius = 30;
@@ -9,9 +9,9 @@ const color = d3.scaleOrdinal().range(d3.schemeCategory20);
 // Create the simulation with a small forceX and Y towards the center
 var simulation = d3
   .forceSimulation()
-  .force('charge', d3.forceManyBody())
-  .force('x', d3.forceX(0).strength(0.003))
-  .force('y', d3.forceY(0).strength(0.003));
+  .force("charge", d3.forceManyBody())
+  .force("x", d3.forceX(0).strength(0.003))
+  .force("y", d3.forceY(0).strength(0.003));
 
 //
 // comment out for now, until we have a public neo4j instance running
@@ -61,7 +61,7 @@ var simulation = d3
 //
 // load static neo4j API response data from a file
 //
-d3.json('neo4j-api-response.json', (error, response) => {
+d3.json("neo4j-api-response.json", (error, response) => {
   if (error) {
     console.error(error);
   }
@@ -79,25 +79,25 @@ const imageCache = {};
 function parseResponse(responseData) {
   const graph = {
     nodes: [],
-    links: []
+    links: [],
   };
   const nodeHash = {};
 
-  console.log('responseData from parseResponse', responseData);
+  console.log("responseData from parseResponse", responseData);
   const graphData = responseData.results[0].data;
-  graphData.forEach(inputLink => {
+  graphData.forEach((inputLink) => {
     const source = inputLink.row[0].gistId;
     const target = inputLink.row[1].gistId;
-    if (typeof source !== 'undefined' && typeof target !== 'undefined') {
+    if (typeof source !== "undefined" && typeof target !== "undefined") {
       // collect the nodes in a set
       // which builds up a list of unique nodes
-      inputLink.row.forEach(inputNode => {
+      inputLink.row.forEach((inputNode) => {
         nodeHash[inputNode.gistId] = {
           id: inputNode.gistId,
           createdAt: inputNode.createdAt,
           description: inputNode.description,
           updatedAt: inputNode.updatedAt,
-          user: inputNode.user
+          user: inputNode.user,
         };
       });
       // assume that the inputLink rows
@@ -107,14 +107,14 @@ function parseResponse(responseData) {
       graph.links.push({
         source,
         target,
-        weight: 1 // for jsLouvain community detection
+        weight: 1, // for jsLouvain community detection
       });
     }
   });
 
   // add the unique nodes that we've collected
   // onto our graph object
-  Object.keys(nodeHash).forEach(key => {
+  Object.keys(nodeHash).forEach((key) => {
     graph.nodes.push(nodeHash[key]);
   });
 
@@ -127,7 +127,7 @@ function parseResponse(responseData) {
 // visualize the graph
 //
 function drawGraph(graph) {
-  console.log('graph from drawGraph', graph);
+  console.log("graph from drawGraph", graph);
   cacheImages(graph, imageCache);
 
   // clear the canvas
@@ -136,10 +136,10 @@ function drawGraph(graph) {
   //
   // detect communities with jsLouvain
   //
-  const nodeData = graph.nodes.map(function(d) {
+  const nodeData = graph.nodes.map(function (d) {
     return d.id;
   });
-  const linkData = graph.links.map(function(d) {
+  const linkData = graph.links.map(function (d) {
     return { source: d.source, target: d.target, weight: d.weight };
   });
 
@@ -147,7 +147,7 @@ function drawGraph(graph) {
   const result = community();
 
   const nodeIndexHash = {};
-  graph.nodes.forEach(function(node, i) {
+  graph.nodes.forEach(function (node, i) {
     node.group = result[node.id];
     nodeIndexHash[node.id] = i;
   });
@@ -157,18 +157,18 @@ function drawGraph(graph) {
   //
   const users = d3
     .nest()
-    .key(d => d.user)
+    .key((d) => d.user)
     .entries(graph.nodes)
     .sort((a, b) => b.values.length - a.values.length);
 
-  color.domain(users.map(d => d.key));
+  color.domain(users.map((d) => d.key));
 
   //
   // process links data to use simple node array index ids
   // for source and target values
   // to satisfy the assumption of the forceInABox layout
   //
-  graph.links.forEach(link => {
+  graph.links.forEach((link) => {
     // record the gistId
     link.sourceGistId = link.source;
     link.targetGistId = link.target;
@@ -183,38 +183,37 @@ function drawGraph(graph) {
   //
   const groupingForce = forceInABox()
     .strength(0.001) // Strength to foci
-    .template('force') // Either treemap or force
-    .groupBy('group') // Node attribute to group
+    .template("force") // Either treemap or force
+    .groupBy("group") // Node attribute to group
     .links(graph.links) // The graph links. Must be called after setting the grouping attribute
     .size([width, height]); // Size of the chart
 
   // Add your forceInABox to the simulation
   simulation
     .nodes(graph.nodes)
-    .force('group', groupingForce)
+    .force("group", groupingForce)
     .force(
-      'link',
+      "link",
       d3
         .forceLink(graph.links)
         .distance(50)
         .strength(groupingForce.getLinkStrength) // default link force will try to join nodes in the same group stronger than if they are in different groups
     )
-    .on('tick', ticked);
+    .on("tick", ticked);
 
   // simulation.force('link').links(graph.links);
 
-  d3
-    .select(canvas)
-    .on('mousemove', mousemoved)
-    .on('click', clicked)
+  d3.select(canvas)
+    .on("mousemove", mousemoved)
+    .on("click", clicked)
     .call(
       d3
         .drag()
         .container(canvas)
         .subject(dragsubject)
-        .on('start', dragstarted)
-        .on('drag', dragged)
-        .on('end', dragended)
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended)
     );
 
   function ticked() {
@@ -224,10 +223,10 @@ function drawGraph(graph) {
 
     context.beginPath();
     graph.links.forEach(drawLink);
-    context.strokeStyle = '#aaa';
+    context.strokeStyle = "#aaa";
     context.stroke();
 
-    users.forEach(user => {
+    users.forEach((user) => {
       context.beginPath();
       user.values.forEach(drawNode);
       context.fillStyle = color(user.key);
@@ -256,17 +255,17 @@ function drawGraph(graph) {
       m[1] - height / 2,
       searchRadius
     );
-    if (!d) return a.removeAttribute('href');
-    a.removeAttribute('title');
+    if (!d) return a.removeAttribute("href");
+    a.removeAttribute("title");
     a.setAttribute(
-      'href',
-      `http://bl.ocks.org/${d.user ? `${d.user}/` : ''}${d.id}`
+      "href",
+      `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`
     );
     a.setAttribute(
-      'title',
-      `${d.id}${d.user ? ` by ${d.user}` : ''}${d.description
-        ? `\n${d.description}`
-        : ''}`
+      "title",
+      `${d.id}${d.user ? ` by ${d.user}` : ""}${
+        d.description ? `\n${d.description}` : ""
+      }`
     );
   }
 
@@ -277,7 +276,7 @@ function drawGraph(graph) {
       m[1] - height / 2,
       searchRadius
     );
-    const blockUrl = `http://bl.ocks.org/${d.user ? `${d.user}/` : ''}${d.id}`;
+    const blockUrl = `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`;
     window.open(blockUrl);
   }
 }
@@ -323,7 +322,7 @@ function drawNode(d) {
   const radius = 22;
 
   // draw border to check intution
-  context.strokeStyle = 'darkgray';
+  context.strokeStyle = "darkgray";
   context.strokeRect(-width / 2, -height / 2, width - 2, height - 2);
 
   // const minX = Math.min(d.x, width - radius);
@@ -352,7 +351,7 @@ function drawNode(d) {
   // draw images with a circular clip mask
   // so that rectangular thumbnail images become
   // round node icons
-  if (typeof image !== 'undefined' && image.height > 0) {
+  if (typeof image !== "undefined" && image.height > 0) {
     context.save();
     context.beginPath();
     context.arc(nX, nY, radius, 0, Math.PI * 2, true);
@@ -378,26 +377,26 @@ function drawNode(d) {
     context.restore();
   } else {
     // gray from the blockbuilder search results page
-    context.fillStyle = '#EEEEEE';
+    context.fillStyle = "#EEEEEE";
     context.beginPath();
     context.arc(nX, nY, radius, 0, Math.PI * 2, true);
     context.closePath();
     context.fill();
 
     // teal from blockbuilder search results page
-    context.fillStyle = '#66B5B4';
-    context.font = '20px Georgia';
-    context.fillText('?', nX - 5, nY + 8);
+    context.fillStyle = "#66B5B4";
+    context.font = "20px Georgia";
+    context.fillText("?", nX - 5, nY + 8);
   }
 }
 
 function cacheImages(graph, imageCache) {
-  graph.nodes.forEach(d => {
+  graph.nodes.forEach((d) => {
     const image = new Image();
 
-    image.src = `https://bl.ocks.org/${d.user
-      ? `${d.user}/`
-      : ''}raw/${d.id}/thumbnail.png`;
+    image.src = `https://bl.ocks.org/${d.user ? `${d.user}/` : ""}raw/${
+      d.id
+    }/thumbnail.png`;
     // image.onload = function() {
     //   imageCache[d.id] = image;
     // };

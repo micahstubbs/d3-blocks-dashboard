@@ -8,10 +8,6 @@ setTimeout(() => {
 }, 50);
 
 function render(canvas, context) {
-  gbcr =
-    canvas.parentElement.parentElement.parentElement.getBoundingClientRect();
-  console.log("gbcr", gbcr);
-
   const { width, height } =
     canvas.parentElement.parentElement.parentElement.getBoundingClientRect();
   console.log("width", width);
@@ -377,28 +373,22 @@ function render(canvas, context) {
     // context.strokeStyle = "darkgray";
     // context.strokeRect(-width / 2, -height / 2, width - 2, height - 2);
 
-    // const minX = Math.min(d.x, width - radius);
+    const minX = Math.min(d.x, width - radius);
     // const nX = Math.max(-width / 2 + radius, minX);
 
-    // const minY = Math.min(d.y, height - 2 * radius);
+    const minY = Math.min(d.y, height - 2 * radius);
     // const nY = Math.max(-height / 2 - radius, minY);
-
-    // const minX = Math.min(d.x, 448);
-    // const nX = Math.max(-448, minX);
-
-    // const minY = Math.min(d.y, 448);
-    // const nY = Math.max(-448, minY);
 
     const nX = boundScalar(d.x);
     const nY = boundScalar(d.y);
 
-    // if (d.x !== nX || d.y !== nY) {
-    //   console.log('d.x', d.x);
-    //   console.log('d.y', d.y);
-    //   console.log('nX', nX);
-    //   console.log('nY', nY);
-    //   console.log('------------');
-    // }
+    if (d.x !== nX || d.y !== nY) {
+      console.log("d.x", d.x);
+      console.log("d.y", d.y);
+      console.log("nX", nX);
+      console.log("nY", nY);
+      console.log("------------");
+    }
 
     // draw images with a circular clip mask
     // so that rectangular thumbnail images become
