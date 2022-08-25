@@ -53,6 +53,16 @@
       .detail {
         height: 100%;
       }
+      #focus-canvas-container {
+        text-align: center;
+      }
+      #focus-canvas-container > canvas {
+        display: inline;
+      }
+      img {
+        max-width: 230px;
+        max-height: 120px;
+      }
     </style>
   </head>
   <body>
@@ -61,12 +71,24 @@
         <div class="context chart">
           <div id="3d-graph"></div>
         </div>
-        <div class="focus chart">focus</div>
+        <div class="focus chart">
+          <a target="_blank" style="outline: none">
+            <div id="focus-canvas-container">
+              <canvas width="400" height="300"
+                >Your browser does not support canvas</canvas
+              >
+            </div>
+          </a>
+        </div>
       </div>
       <div class="section">
         <div class="detail chart">detail</div>
       </div>
     </div>
     <script src="context.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.js"></script>
+    <script src="forceInABox.js"></script>
+    <script src="jsLouvain.js"></script>
+    <script src="focus.js"></script>
   </body>
 </html>
