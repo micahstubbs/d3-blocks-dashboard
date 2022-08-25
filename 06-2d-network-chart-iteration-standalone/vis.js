@@ -57,11 +57,11 @@ function parseResponse(responseData) {
   // user interaction with the context chart
   // in the dashboard
   const selectedNode = {
-    id: "3cc1a2a289dddbd64688",
-    user: "curran",
-    createdAt: "2015-09-06T00:53:52Z",
-    updatedAt: "2015-09-12T21:20:28Z",
-    description: "Fundamental Visualizations",
+    id: "4062045",
+    user: "mbostock",
+    createdAt: "2012-11-12T21:31:44Z",
+    updatedAt: "2017-11-27T10:50:58Z",
+    description: "Force-Directed Graph",
   };
 
   const neighborhood = {
