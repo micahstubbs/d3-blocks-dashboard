@@ -80,6 +80,7 @@ function parseResponse(responseData) {
 
     // the selected node itself
     neighborhood.nodes.push(currentNode);
+    neighborhood.nodesHash[currentNode.id] = true;
 
     // add all first degree links that touch the selected node
     neighborhood.links = [
@@ -96,17 +97,17 @@ function parseResponse(responseData) {
           !neighborhood.nodesHash[link.source]
         ) {
           neighborhood.nodes.push(globalNodesHash[link.source]);
-          neighborhood.nodesHash[globalNodesHash[link.source].id] = true;
           currentDegreeNodes.push(globalNodesHash[link.source]);
+          neighborhood.nodesHash[link.source] = true;
         }
       } else if (link.target !== currentNode.id) {
         if (
           globalNodesHash[link.target] &&
-          !neighborhood.nodesHash[link.source]
+          !neighborhood.nodesHash[link.target]
         ) {
           neighborhood.nodes.push(globalNodesHash[link.target]);
           currentDegreeNodes.push(globalNodesHash[link.target]);
-          neighborhood.nodesHash[globalNodesHash[link.target].id] = true;
+          neighborhood.nodesHash[link.target] = true;
         }
       }
     });
@@ -132,52 +133,15 @@ function parseResponse(responseData) {
 
   buildNeighborhood(selectedNode, 2);
 
-  // prune any dangling links
+  // prune any links with undefined sources or targets
   for (let i = neighborhood.links.length - 1; i > -1; i -= 1) {
-    if (
-      !neighborhood.nodesHash[neighborhood.links[i].source] ||
-      !neighborhood.nodesHash[neighborhood.links[i].target]
-    ) {
+    if (!neighborhood.links[i].source || !neighborhood.links[i].target) {
       neighborhood.links.splice(i);
     }
   }
 
   const graph = neighborhood;
-
-  // const nodeHash = {};
-  // const graphData = responseData;
-  // graphData.forEach((inputLink) => {
-  //   const source = inputLink.row[0].gistId;
-  //   const target = inputLink.row[1].gistId;
-  //   if (typeof source !== "undefined" && typeof target !== "undefined") {
-  //     // collect the nodes in a set
-  //     // which builds up a list of unique nodes
-  //     inputLink.row.forEach((inputNode) => {
-  //       nodeHash[inputNode.gistId] = {
-  //         id: inputNode.gistId,
-  //         createdAt: inputNode.createdAt,
-  //         description: inputNode.description,
-  //         updatedAt: inputNode.updatedAt,
-  //         user: inputNode.user,
-  //       };
-  //     });
-  //     // assume that the inputLink rows
-  //     // are in [source, target] format
-  //     // TODO: check the neo4j REST API docs
-  //     // to verify this
-  //     graph.links.push({
-  //       source,
-  //       target,
-  //       weight: 1, // for jsLouvain community detection
-  //     });
-  //   }
-  // });
-
-  // // add the unique nodes that we've collected
-  // // onto our graph object
-  // Object.keys(nodeHash).forEach((key) => {
-  //   graph.nodes.push(nodeHash[key]);
-  // });
+  console.log("neighborhood", neighborhood);
 
   // call the drawGraph function
   // to plot the graph
@@ -230,7 +194,7 @@ function drawGraph(graph) {
   // to satisfy the assumption of the forceInABox layout
   //
   graph.links.forEach((link) => {
-    if (typeof link.source === "string") {
+    if (typeof link.source === "string" && typeof link.target === "string") {
       // record the gistId
       link.sourceGistId = link.source;
       link.targetGistId = link.target;
