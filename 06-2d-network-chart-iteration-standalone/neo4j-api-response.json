@@ -1,0 +1,3280 @@
+{
+    "results": [
+        {
+            "columns": ["n", "m"],
+            "data": [
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-07-22T10:16:34Z",
+                            "description": "Self Organizing Map - Heatmap - D3",
+                            "user": "nbremer",
+                            "gistId": "6052814",
+                            "updatedAt": "2015-12-20T01:59:10Z"
+                        },
+                        {
+                            "createdAt": "2013-07-22T09:50:44Z",
+                            "description": "Self Organizing Map - Hexagonal Heatmap - Lines",
+                            "user": "nbremer",
+                            "gistId": "6052681",
+                            "updatedAt": "2015-12-20T01:59:03Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 105,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 106,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-07-22T10:16:34Z",
+                            "description": "Self Organizing Map - Heatmap - D3",
+                            "user": "nbremer",
+                            "gistId": "6052814",
+                            "updatedAt": "2015-12-20T01:59:10Z"
+                        },
+                        {
+                            "createdAt": "2013-07-22T09:50:44Z",
+                            "description": "Self Organizing Map - Hexagonal Heatmap - Lines",
+                            "user": "nbremer",
+                            "gistId": "6052681",
+                            "updatedAt": "2015-12-20T01:59:03Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 105,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 106,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-07-22T09:50:44Z",
+                            "description": "Self Organizing Map - Hexagonal Heatmap - Lines",
+                            "user": "nbremer",
+                            "gistId": "6052681",
+                            "updatedAt": "2015-12-20T01:59:03Z"
+                        },
+                        {
+                            "createdAt": "2013-07-22T10:16:34Z",
+                            "description": "Self Organizing Map - Heatmap - D3",
+                            "user": "nbremer",
+                            "gistId": "6052814",
+                            "updatedAt": "2015-12-20T01:59:10Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 106,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 105,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-07-22T09:50:44Z",
+                            "description": "Self Organizing Map - Hexagonal Heatmap - Lines",
+                            "user": "nbremer",
+                            "gistId": "6052681",
+                            "updatedAt": "2015-12-20T01:59:03Z"
+                        },
+                        {
+                            "createdAt": "2013-07-22T10:16:34Z",
+                            "description": "Self Organizing Map - Heatmap - D3",
+                            "user": "nbremer",
+                            "gistId": "6052814",
+                            "updatedAt": "2015-12-20T01:59:10Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 106,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 105,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-08-20T10:51:34Z",
+                            "description": "France_topographic_map.svg",
+                            "user": "hugolpz",
+                            "gistId": "6279966",
+                            "updatedAt": "2015-12-21T08:39:11Z"
+                        },
+                        {
+                            "createdAt": "null",
+                            "description": "null",
+                            "user": "null",
+                            "gistId": "5691513",
+                            "updatedAt": "null"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 124,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 98,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-12-18T22:48:11Z",
+                            "description": "Fractal tree depth map (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8031205",
+                            "updatedAt": "2015-12-31T19:08:58Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 210,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-11-15T23:43:20Z",
+                            "description": "Graph editing",
+                            "user": "nitaku",
+                            "gistId": "7493693",
+                            "updatedAt": "2015-12-28T11:29:11Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 185,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2012-11-23T17:56:09Z",
+                            "description": "U.S. TopoJSON",
+                            "user": "mbostock",
+                            "gistId": "4136647",
+                            "updatedAt": "2016-02-09T01:46:11Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 204,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-10-17T13:52:38Z",
+                            "description": "Precomputed Gosper regions",
+                            "user": "nitaku",
+                            "gistId": "7025272",
+                            "updatedAt": "2015-12-25T19:09:02Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 163,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-10-17T12:11:09Z",
+                            "description": "Gosper regions",
+                            "user": "nitaku",
+                            "gistId": "7023794",
+                            "updatedAt": "2015-12-25T18:49:35Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 161,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-10-17T13:52:38Z",
+                            "description": "Precomputed Gosper regions",
+                            "user": "nitaku",
+                            "gistId": "7025272",
+                            "updatedAt": "2015-12-25T19:09:02Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 163,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-10-16T21:27:57Z",
+                            "description": "Gosper hex tiling (fancy)",
+                            "user": "nitaku",
+                            "gistId": "7015186",
+                            "updatedAt": "2015-12-25T17:39:36Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 160,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "null",
+                            "description": "null",
+                            "user": "null",
+                            "gistId": "7960622",
+                            "updatedAt": "null"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 203,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-12-13T01:15:00Z",
+                            "description": "Random tree II",
+                            "user": "nitaku",
+                            "gistId": "7938492",
+                            "updatedAt": "2015-12-31T05:09:00Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 202,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "null",
+                            "description": "null",
+                            "user": "null",
+                            "gistId": "7962295",
+                            "updatedAt": "null"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 201,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        },
+                        {
+                            "createdAt": "2013-10-17T13:52:38Z",
+                            "description": "Precomputed Gosper regions",
+                            "user": "nitaku",
+                            "gistId": "7025272",
+                            "updatedAt": "2015-12-25T19:09:02Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 163,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T22:48:11Z",
+                            "description": "Fractal tree depth map (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8031205",
+                            "updatedAt": "2015-12-31T19:08:58Z"
+                        },
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 210,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T22:48:11Z",
+                            "description": "Fractal tree depth map (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8031205",
+                            "updatedAt": "2015-12-31T19:08:58Z"
+                        },
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 210,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-18T22:48:11Z",
+                            "description": "Fractal tree depth map (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8031205",
+                            "updatedAt": "2015-12-31T19:08:58Z"
+                        },
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 210,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-30T17:51:39Z",
+                            "description": "Base map for Haiyan typhoon track",
+                            "user": "rveciana",
+                            "gistId": "8185373",
+                            "updatedAt": "2016-01-01T18:39:13Z"
+                        },
+                        {
+                            "createdAt": "2012-09-20T17:13:29Z",
+                            "description": "Spherical Mercator",
+                            "user": "mbostock",
+                            "gistId": "3757132",
+                            "updatedAt": "2016-02-09T01:37:10Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 212,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 208,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-12-30T17:51:39Z",
+                            "description": "Base map for Haiyan typhoon track",
+                            "user": "rveciana",
+                            "gistId": "8185373",
+                            "updatedAt": "2016-01-01T18:39:13Z"
+                        },
+                        {
+                            "createdAt": "2012-09-20T17:13:29Z",
+                            "description": "Spherical Mercator",
+                            "user": "mbostock",
+                            "gistId": "3757132",
+                            "updatedAt": "2016-02-09T01:37:10Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 212,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 208,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2013-12-18T22:48:11Z",
+                            "description": "Fractal tree depth map (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8031205",
+                            "updatedAt": "2015-12-31T19:08:58Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 210,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "null",
+                            "description": "null",
+                            "user": "null",
+                            "gistId": "8272105",
+                            "updatedAt": "null"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 217,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2014-01-04T20:46:29Z",
+                            "description": "Canonical representation of unordered rooted trees",
+                            "user": "nitaku",
+                            "gistId": "8260510",
+                            "updatedAt": "2016-01-02T05:59:07Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 211,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2015-06-17T12:09:03Z",
+                            "description": "Node Gosper hex tiling",
+                            "user": "nitaku",
+                            "gistId": "0c991d6ed0e994e1c7ed",
+                            "updatedAt": "2015-08-29T14:23:13Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 726,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2014-02-02T17:54:42Z",
+                            "description": "Space-flling curve layout (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8772179",
+                            "updatedAt": "2015-08-29T13:55:55Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 227,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2013-12-18T22:48:11Z",
+                            "description": "Fractal tree depth map (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8031205",
+                            "updatedAt": "2015-12-31T19:08:58Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 210,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2013-12-18T19:27:21Z",
+                            "description": "Fractal treemap (random, Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8028264",
+                            "updatedAt": "2015-12-31T18:39:11Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 205,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "null",
+                            "description": "null",
+                            "user": "null",
+                            "gistId": "8272105",
+                            "updatedAt": "null"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 217,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-01-05T19:32:04Z",
+                            "description": "Fractal treemap of Konanopii (1,724 leaves)",
+                            "user": "nitaku",
+                            "gistId": "8272715",
+                            "updatedAt": "2016-01-02T07:49:18Z"
+                        },
+                        {
+                            "createdAt": "2014-01-04T20:46:29Z",
+                            "description": "Canonical representation of unordered rooted trees",
+                            "user": "nitaku",
+                            "gistId": "8260510",
+                            "updatedAt": "2016-01-02T05:59:07Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 218,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 211,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T13:58:25Z",
+                            "description": "Jigsaw treemap (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8784278",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T17:18:56Z",
+                            "description": "Gosper treemap with hierarchical edge bundling",
+                            "user": "nitaku",
+                            "gistId": "8788101",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 228,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 232,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T13:58:25Z",
+                            "description": "Jigsaw treemap (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8784278",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 228,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T13:58:25Z",
+                            "description": "Jigsaw treemap (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8784278",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-02T17:54:42Z",
+                            "description": "Space-flling curve layout (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8772179",
+                            "updatedAt": "2015-08-29T13:55:55Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 228,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 227,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-07-12T11:08:58Z",
+                            "description": "Hilbert spiral (L-system)",
+                            "user": "nitaku",
+                            "gistId": "bffd66a05d5bf04aefa7",
+                            "updatedAt": "2015-08-29T14:03:53Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 752,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-12T00:38:14Z",
+                            "description": "Unstable Hilbert curve",
+                            "user": "nitaku",
+                            "gistId": "8947565",
+                            "updatedAt": "2015-08-29T13:56:17Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 239,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-08T12:10:37Z",
+                            "description": "Label placement for Hilbert treemaps",
+                            "user": "nitaku",
+                            "gistId": "8882722",
+                            "updatedAt": "2015-08-29T13:56:10Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 236,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T16:28:05Z",
+                            "description": "Hilbert treemap (area encoding)",
+                            "user": "nitaku",
+                            "gistId": "8787102",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 230,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T13:58:25Z",
+                            "description": "Jigsaw treemap (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8784278",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 228,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2013-09-10T20:15:19Z",
+                            "description": "Hilbert curve (L-system)",
+                            "user": "nitaku",
+                            "gistId": "6514960",
+                            "updatedAt": "2015-12-22T18:48:57Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 143,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T16:28:05Z",
+                            "description": "Hilbert treemap (area encoding)",
+                            "user": "nitaku",
+                            "gistId": "8787102",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 230,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T17:18:56Z",
+                            "description": "Gosper treemap with hierarchical edge bundling",
+                            "user": "nitaku",
+                            "gistId": "8788101",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2012-12-19T22:31:13Z",
+                            "description": "Hierarchical Edge Bundling",
+                            "user": "mbostock",
+                            "gistId": "4341134",
+                            "updatedAt": "2016-04-11T03:04:09Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 232,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 231,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-03T17:18:56Z",
+                            "description": "Gosper treemap with hierarchical edge bundling",
+                            "user": "nitaku",
+                            "gistId": "8788101",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T13:58:25Z",
+                            "description": "Jigsaw treemap (Gosper)",
+                            "user": "nitaku",
+                            "gistId": "8784278",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 232,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 228,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-08T12:10:37Z",
+                            "description": "Label placement for Hilbert treemaps",
+                            "user": "nitaku",
+                            "gistId": "8882722",
+                            "updatedAt": "2015-08-29T13:56:10Z"
+                        },
+                        {
+                            "createdAt": "2014-02-12T00:38:14Z",
+                            "description": "Unstable Hilbert curve",
+                            "user": "nitaku",
+                            "gistId": "8947565",
+                            "updatedAt": "2015-08-29T13:56:17Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 236,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 239,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-02-08T12:10:37Z",
+                            "description": "Label placement for Hilbert treemaps",
+                            "user": "nitaku",
+                            "gistId": "8882722",
+                            "updatedAt": "2015-08-29T13:56:10Z"
+                        },
+                        {
+                            "createdAt": "2014-02-03T14:40:20Z",
+                            "description": "Jigsaw treemap (Hilbert)",
+                            "user": "nitaku",
+                            "gistId": "8784942",
+                            "updatedAt": "2015-08-29T13:55:56Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 236,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 229,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-02-21T21:50:54Z",
+                            "description": "Hexbin Heightmap Transitions",
+                            "user": "syntagmatic",
+                            "gistId": "c256fda4965d38e7c59b",
+                            "updatedAt": "2015-08-29T14:15:53Z"
+                        },
+                        {
+                            "createdAt": "2013-03-06T16:29:21Z",
+                            "description": "Arc Tween",
+                            "user": "mbostock",
+                            "gistId": "5100636",
+                            "updatedAt": "2016-04-30T20:28:27Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 351,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 118,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-02-21T21:50:54Z",
+                            "description": "Hexbin Heightmap Transitions",
+                            "user": "syntagmatic",
+                            "gistId": "c256fda4965d38e7c59b",
+                            "updatedAt": "2015-08-29T14:15:53Z"
+                        },
+                        {
+                            "createdAt": "2015-01-25T10:36:49Z",
+                            "description": "Hexbin Heightmap",
+                            "user": "syntagmatic",
+                            "gistId": "1092fe86860def004ea7",
+                            "updatedAt": "2015-08-29T14:14:06Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 351,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 353,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-02-21T21:50:54Z",
+                            "description": "Hexbin Heightmap Transitions",
+                            "user": "syntagmatic",
+                            "gistId": "c256fda4965d38e7c59b",
+                            "updatedAt": "2015-08-29T14:15:53Z"
+                        },
+                        {
+                            "createdAt": "2015-03-06T09:03:50Z",
+                            "description": "Hexbin Canvas Transitions",
+                            "user": "syntagmatic",
+                            "gistId": "002ef2fb5c1dc2df5821",
+                            "updatedAt": "2015-10-21T23:25:20Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 351,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 407,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-01-25T10:36:49Z",
+                            "description": "Hexbin Heightmap",
+                            "user": "syntagmatic",
+                            "gistId": "1092fe86860def004ea7",
+                            "updatedAt": "2015-08-29T14:14:06Z"
+                        },
+                        {
+                            "createdAt": "2012-12-10T03:04:53Z",
+                            "description": "Hexagonal Binning",
+                            "user": "mbostock",
+                            "gistId": "4248145",
+                            "updatedAt": "2016-04-19T16:12:17Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 353,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 356,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-01-25T10:36:49Z",
+                            "description": "Hexbin Heightmap",
+                            "user": "syntagmatic",
+                            "gistId": "1092fe86860def004ea7",
+                            "updatedAt": "2015-08-29T14:14:06Z"
+                        },
+                        {
+                            "createdAt": "2012-08-07T21:26:46Z",
+                            "description": "Heightmap",
+                            "user": "mbostock",
+                            "gistId": "3289530",
+                            "updatedAt": "2016-02-09T01:30:14Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 353,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 355,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-01-25T10:36:49Z",
+                            "description": "Hexbin Heightmap",
+                            "user": "syntagmatic",
+                            "gistId": "1092fe86860def004ea7",
+                            "updatedAt": "2015-08-29T14:14:06Z"
+                        },
+                        {
+                            "createdAt": "2015-02-21T21:50:54Z",
+                            "description": "Hexbin Heightmap Transitions",
+                            "user": "syntagmatic",
+                            "gistId": "c256fda4965d38e7c59b",
+                            "updatedAt": "2015-08-29T14:15:53Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 353,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 351,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2012-08-07T21:26:46Z",
+                            "description": "Heightmap",
+                            "user": "mbostock",
+                            "gistId": "3289530",
+                            "updatedAt": "2016-02-09T01:30:14Z"
+                        },
+                        {
+                            "createdAt": "2015-01-25T10:36:49Z",
+                            "description": "Hexbin Heightmap",
+                            "user": "syntagmatic",
+                            "gistId": "1092fe86860def004ea7",
+                            "updatedAt": "2015-08-29T14:14:06Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 355,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 353,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-08-26T16:04:24Z",
+                            "description": "Modal Infoboxes - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "433a9b04f82a1c78af4b",
+                            "updatedAt": "2015-08-29T14:05:41Z"
+                        },
+                        {
+                            "createdAt": "2014-08-26T21:50:55Z",
+                            "description": "Custom Infobox Formatter - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "905bb4f399e0855e08fe",
+                            "updatedAt": "2015-08-29T14:05:45Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 414,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 655,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-08-26T16:04:24Z",
+                            "description": "Modal Infoboxes - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "433a9b04f82a1c78af4b",
+                            "updatedAt": "2015-08-29T14:05:41Z"
+                        },
+                        {
+                            "createdAt": "2014-08-26T21:50:55Z",
+                            "description": "Custom Infobox Formatter - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "905bb4f399e0855e08fe",
+                            "updatedAt": "2015-08-29T14:05:45Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 414,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 655,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-09-10T17:38:03Z",
+                            "description": "visualizing map distortion",
+                            "user": "enjalot",
+                            "gistId": "bd552e711b8325c64729",
+                            "updatedAt": "2015-09-30T17:02:12Z"
+                        },
+                        {
+                            "createdAt": "2014-07-07T03:35:48Z",
+                            "description": "Map Pan & Zoom II",
+                            "user": "mbostock",
+                            "gistId": "eec4a6cda2f573574a11",
+                            "updatedAt": "2016-02-09T01:53:20Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 467,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 615,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-09-10T17:38:03Z",
+                            "description": "visualizing map distortion",
+                            "user": "enjalot",
+                            "gistId": "bd552e711b8325c64729",
+                            "updatedAt": "2015-09-30T17:02:12Z"
+                        },
+                        {
+                            "createdAt": "2015-08-16T03:37:26Z",
+                            "description": "Comparing Map Projections",
+                            "user": "syntagmatic",
+                            "gistId": "ba569633d51ebec6ec6e",
+                            "updatedAt": "2015-08-29T14:27:28Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 467,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 437,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-09-10T17:38:03Z",
+                            "description": "visualizing map distortion",
+                            "user": "enjalot",
+                            "gistId": "bd552e711b8325c64729",
+                            "updatedAt": "2015-09-30T17:02:12Z"
+                        },
+                        {
+                            "createdAt": "null",
+                            "description": "null",
+                            "user": "null",
+                            "gistId": "e2744ee563f7cab80350",
+                            "updatedAt": "null"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 467,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 466,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-09-10T17:38:03Z",
+                            "description": "visualizing map distortion",
+                            "user": "enjalot",
+                            "gistId": "bd552e711b8325c64729",
+                            "updatedAt": "2015-09-30T17:02:12Z"
+                        },
+                        {
+                            "createdAt": "2015-09-04T03:00:28Z",
+                            "description": "Map & Globe",
+                            "user": "curran",
+                            "gistId": "01aa2685f083b6c1b9fb",
+                            "updatedAt": "2015-09-23T21:36:19Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 467,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 614,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-09-10T17:38:03Z",
+                            "description": "visualizing map distortion",
+                            "user": "enjalot",
+                            "gistId": "bd552e711b8325c64729",
+                            "updatedAt": "2015-09-30T17:02:12Z"
+                        },
+                        {
+                            "createdAt": "2015-09-30T17:02:24Z",
+                            "description": "d3.geo.weichel",
+                            "user": "enjalot",
+                            "gistId": "27969219a945e2bd20dc",
+                            "updatedAt": "2015-09-30T18:14:36Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 467,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 611,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-09-10T17:38:03Z",
+                            "description": "visualizing map distortion",
+                            "user": "enjalot",
+                            "gistId": "bd552e711b8325c64729",
+                            "updatedAt": "2015-09-30T17:02:12Z"
+                        },
+                        {
+                            "createdAt": "2015-09-04T03:00:28Z",
+                            "description": "Map & Globe",
+                            "user": "curran",
+                            "gistId": "01aa2685f083b6c1b9fb",
+                            "updatedAt": "2015-09-23T21:36:19Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 467,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 614,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-08-07T15:35:00Z",
+                            "description": "tmap with interactivity and pan/zoom",
+                            "user": "timelyportfolio",
+                            "gistId": "e2effb970b3cbe2f4e84",
+                            "updatedAt": "2015-10-21T02:35:21Z"
+                        },
+                        {
+                            "createdAt": "2015-08-07T15:35:00Z",
+                            "description": "tmap with interactivity and pan/zoom",
+                            "user": "timelyportfolio",
+                            "gistId": "e2effb970b3cbe2f4e84",
+                            "updatedAt": "2015-10-21T02:35:21Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 515,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 515,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-10-06T09:30:58Z",
+                            "description": "Responsive map with Cartodb/Leaflet",
+                            "user": "maartenzam",
+                            "gistId": "7ef773bdf11999c9eebb",
+                            "updatedAt": "2015-10-06T10:02:57Z"
+                        },
+                        {
+                            "createdAt": "2015-11-19T15:02:16Z",
+                            "description": "Responsive CartoDB choropleth linked to strip plot",
+                            "user": "maartenzam",
+                            "gistId": "8a7f9bed9715c0eb678a",
+                            "updatedAt": "2015-11-19T15:27:50Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 544,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 941,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-10-06T09:30:58Z",
+                            "description": "Responsive map with Cartodb/Leaflet",
+                            "user": "maartenzam",
+                            "gistId": "7ef773bdf11999c9eebb",
+                            "updatedAt": "2015-10-06T10:02:57Z"
+                        },
+                        {
+                            "createdAt": "2015-10-06T09:30:58Z",
+                            "description": "Responsive map with Cartodb/Leaflet",
+                            "user": "maartenzam",
+                            "gistId": "7ef773bdf11999c9eebb",
+                            "updatedAt": "2015-10-06T10:02:57Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 544,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 544,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-07-21T06:36:01Z",
+                            "description": "Quadtree clustering - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "7d5925cb7d9721c60360",
+                            "updatedAt": "2015-08-29T14:04:17Z"
+                        },
+                        {
+                            "createdAt": "2014-09-12T01:21:37Z",
+                            "description": "Feature Clustering - d3.carto",
+                            "user": "emeeks",
+                            "gistId": "1a75ec54489368b514f8",
+                            "updatedAt": "2015-08-29T14:06:21Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 652,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 654,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-08-26T21:50:55Z",
+                            "description": "Custom Infobox Formatter - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "905bb4f399e0855e08fe",
+                            "updatedAt": "2015-08-29T14:05:45Z"
+                        },
+                        {
+                            "createdAt": "2014-08-26T16:04:24Z",
+                            "description": "Modal Infoboxes - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "433a9b04f82a1c78af4b",
+                            "updatedAt": "2015-08-29T14:05:41Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 655,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 414,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-08-26T21:50:55Z",
+                            "description": "Custom Infobox Formatter - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "905bb4f399e0855e08fe",
+                            "updatedAt": "2015-08-29T14:05:45Z"
+                        },
+                        {
+                            "createdAt": "2014-08-26T16:04:24Z",
+                            "description": "Modal Infoboxes - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "433a9b04f82a1c78af4b",
+                            "updatedAt": "2015-08-29T14:05:41Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 655,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 414,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-08-26T21:50:55Z",
+                            "description": "Custom Infobox Formatter - d3.carto.map",
+                            "user": "emeeks",
+                            "gistId": "905bb4f399e0855e08fe",
+                            "updatedAt": "2015-08-29T14:05:45Z"
+                        },
+                        {
+                            "createdAt": "2014-09-12T01:21:37Z",
+                            "description": "Feature Clustering - d3.carto",
+                            "user": "emeeks",
+                            "gistId": "1a75ec54489368b514f8",
+                            "updatedAt": "2015-08-29T14:06:21Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 655,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 654,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-02-24T23:27:41Z",
+                            "description": "Printing map.svg file via D3js, Nodejs, Jsdom",
+                            "user": "hugolpz",
+                            "gistId": "1c34e14d8b7dd457f802",
+                            "updatedAt": "2015-08-29T14:16:04Z"
+                        },
+                        {
+                            "createdAt": "2015-02-24T23:27:41Z",
+                            "description": "Printing map.svg file via D3js, Nodejs, Jsdom",
+                            "user": "hugolpz",
+                            "gistId": "1c34e14d8b7dd457f802",
+                            "updatedAt": "2015-08-29T14:16:04Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 681,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 681,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-07-03T19:52:30Z",
+                            "description": "Isometric treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "833632f23c308ae2d58b",
+                            "updatedAt": "2015-08-29T14:24:13Z"
+                        },
+                        {
+                            "createdAt": "2014-09-15T15:51:04Z",
+                            "description": "Labeled treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "3424eed86f55550622ef",
+                            "updatedAt": "2015-08-29T14:06:30Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 716,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 721,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-07-03T19:52:30Z",
+                            "description": "Isometric treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "833632f23c308ae2d58b",
+                            "updatedAt": "2015-08-29T14:24:13Z"
+                        },
+                        {
+                            "createdAt": "2015-06-17T20:19:57Z",
+                            "description": "Isometric projection",
+                            "user": "nitaku",
+                            "gistId": "8f96bf393b94caff688b",
+                            "updatedAt": "2015-10-15T19:17:28Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 716,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 720,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-09-15T15:51:04Z",
+                            "description": "Labeled treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "3424eed86f55550622ef",
+                            "updatedAt": "2015-08-29T14:06:30Z"
+                        },
+                        {
+                            "createdAt": "2014-09-15T13:44:56Z",
+                            "description": "Basic treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "2d502924bad6152acbe5",
+                            "updatedAt": "2015-08-29T14:06:30Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 721,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 737,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-09-15T15:51:04Z",
+                            "description": "Labeled treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "3424eed86f55550622ef",
+                            "updatedAt": "2015-08-29T14:06:30Z"
+                        },
+                        {
+                            "createdAt": "2015-07-03T19:52:30Z",
+                            "description": "Isometric treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "833632f23c308ae2d58b",
+                            "updatedAt": "2015-08-29T14:24:13Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 721,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 716,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-06-18T18:58:03Z",
+                            "description": "Isometric \"treemap\"",
+                            "user": "nitaku",
+                            "gistId": "e03a1a5c1a4a95f06c3b",
+                            "updatedAt": "2016-03-08T03:54:52Z"
+                        },
+                        {
+                            "createdAt": "2015-06-17T20:19:57Z",
+                            "description": "Isometric projection",
+                            "user": "nitaku",
+                            "gistId": "8f96bf393b94caff688b",
+                            "updatedAt": "2015-10-15T19:17:28Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 724,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 720,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-06-18T18:58:03Z",
+                            "description": "Isometric \"treemap\"",
+                            "user": "nitaku",
+                            "gistId": "e03a1a5c1a4a95f06c3b",
+                            "updatedAt": "2016-03-08T03:54:52Z"
+                        },
+                        {
+                            "createdAt": "2015-06-17T20:19:57Z",
+                            "description": "Isometric projection",
+                            "user": "nitaku",
+                            "gistId": "8f96bf393b94caff688b",
+                            "updatedAt": "2015-10-15T19:17:28Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 724,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 720,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-06-18T18:58:03Z",
+                            "description": "Isometric \"treemap\"",
+                            "user": "nitaku",
+                            "gistId": "e03a1a5c1a4a95f06c3b",
+                            "updatedAt": "2016-03-08T03:54:52Z"
+                        },
+                        {
+                            "createdAt": "2015-06-20T10:06:44Z",
+                            "description": "Isometric word cloud",
+                            "user": "nitaku",
+                            "gistId": "6210bd80bdd20181e1f4",
+                            "updatedAt": "2015-08-29T14:23:23Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 724,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 722,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-10-10T13:40:59Z",
+                            "description": "Word cloud treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "79f16392f7e1bed77f07",
+                            "updatedAt": "2015-08-29T14:07:27Z"
+                        },
+                        {
+                            "createdAt": "2015-06-20T10:06:44Z",
+                            "description": "Isometric word cloud",
+                            "user": "nitaku",
+                            "gistId": "6210bd80bdd20181e1f4",
+                            "updatedAt": "2015-08-29T14:23:23Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 725,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 722,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-09-15T13:44:56Z",
+                            "description": "Basic treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "2d502924bad6152acbe5",
+                            "updatedAt": "2015-08-29T14:06:30Z"
+                        },
+                        {
+                            "createdAt": "2014-09-15T15:51:04Z",
+                            "description": "Labeled treemap (flare)",
+                            "user": "nitaku",
+                            "gistId": "3424eed86f55550622ef",
+                            "updatedAt": "2015-08-29T14:06:30Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 737,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 721,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-07T05:12:48Z",
+                            "description": "Treemap",
+                            "user": "emeeks",
+                            "gistId": "98f56f3e840143a4eccf",
+                            "updatedAt": "2016-03-16T15:38:03Z"
+                        },
+                        {
+                            "createdAt": "2015-11-08T06:19:51Z",
+                            "description": "County Treemap I",
+                            "user": "micahstubbs",
+                            "gistId": "c5f71b45dbd87402e6f2",
+                            "updatedAt": "2016-03-12T22:44:05Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 792,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 793,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-07T05:12:48Z",
+                            "description": "Treemap",
+                            "user": "emeeks",
+                            "gistId": "98f56f3e840143a4eccf",
+                            "updatedAt": "2016-03-16T15:38:03Z"
+                        },
+                        {
+                            "createdAt": "2015-11-08T06:19:51Z",
+                            "description": "County Treemap I",
+                            "user": "micahstubbs",
+                            "gistId": "c5f71b45dbd87402e6f2",
+                            "updatedAt": "2016-03-12T22:44:05Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 792,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 793,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-08T06:19:51Z",
+                            "description": "County Treemap I",
+                            "user": "micahstubbs",
+                            "gistId": "c5f71b45dbd87402e6f2",
+                            "updatedAt": "2016-03-12T22:44:05Z"
+                        },
+                        {
+                            "createdAt": "2015-11-07T05:12:48Z",
+                            "description": "Treemap",
+                            "user": "emeeks",
+                            "gistId": "98f56f3e840143a4eccf",
+                            "updatedAt": "2016-03-16T15:38:03Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 793,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 792,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-08T06:19:51Z",
+                            "description": "County Treemap I",
+                            "user": "micahstubbs",
+                            "gistId": "c5f71b45dbd87402e6f2",
+                            "updatedAt": "2016-03-12T22:44:05Z"
+                        },
+                        {
+                            "createdAt": "2015-11-07T05:12:48Z",
+                            "description": "Treemap",
+                            "user": "emeeks",
+                            "gistId": "98f56f3e840143a4eccf",
+                            "updatedAt": "2016-03-16T15:38:03Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 793,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 792,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-01T04:40:58Z",
+                            "description": "dots on a map: setup",
+                            "user": "enjalot",
+                            "gistId": "18cb7a77b2d9de597b86",
+                            "updatedAt": "2016-04-29T10:08:29Z"
+                        },
+                        {
+                            "createdAt": "2016-03-24T22:49:54Z",
+                            "description": "topojson on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "676bfe2b6e67e61e0656",
+                            "updatedAt": "2016-04-11T20:32:40Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1006,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1868,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-01T04:40:58Z",
+                            "description": "dots on a map: setup",
+                            "user": "enjalot",
+                            "gistId": "18cb7a77b2d9de597b86",
+                            "updatedAt": "2016-04-29T10:08:29Z"
+                        },
+                        {
+                            "createdAt": "2015-12-01T06:10:27Z",
+                            "description": "dots on a map: lasso",
+                            "user": "enjalot",
+                            "gistId": "b95748220bd4752fb33a",
+                            "updatedAt": "2015-12-02T00:45:26Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1006,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1301,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-01T04:40:58Z",
+                            "description": "dots on a map: setup",
+                            "user": "enjalot",
+                            "gistId": "18cb7a77b2d9de597b86",
+                            "updatedAt": "2016-04-29T10:08:29Z"
+                        },
+                        {
+                            "createdAt": "2015-12-03T18:17:59Z",
+                            "description": "dots on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "dc1ce756527c072885dc",
+                            "updatedAt": "2015-12-06T01:55:32Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1006,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1300,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-08T18:10:09Z",
+                            "description": "d3 | reusable heatmap calendar",
+                            "user": "eesur",
+                            "gistId": "5fbda7f410d31da35e42",
+                            "updatedAt": "2015-12-08T18:10:12Z"
+                        },
+                        {
+                            "createdAt": "2012-11-13T01:33:21Z",
+                            "description": "Calendar View",
+                            "user": "mbostock",
+                            "gistId": "4063318",
+                            "updatedAt": "2016-03-28T13:27:52Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1010,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 809,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2014-07-07T18:22:08Z",
+                            "description": "D3 Trail Layout animated map",
+                            "user": "rveciana",
+                            "gistId": "2986e55a01c7008d4b5b",
+                            "updatedAt": "2015-08-29T14:03:37Z"
+                        },
+                        {
+                            "createdAt": "2014-04-15T16:02:03Z",
+                            "description": "Hayan typhoon gradient colored track II",
+                            "user": "rveciana",
+                            "gistId": "10743959",
+                            "updatedAt": "2015-08-29T13:59:32Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1283,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1284,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-08-09T11:55:29Z",
+                            "description": "Flag map with D3js - SVG",
+                            "user": "rveciana",
+                            "gistId": "6193058",
+                            "updatedAt": "2015-12-20T20:49:10Z"
+                        },
+                        {
+                            "createdAt": "2015-12-13T16:18:54Z",
+                            "description": "D3.js Boetti ",
+                            "user": "espinielli",
+                            "gistId": "9ea56e041f6847dbe944",
+                            "updatedAt": "2015-12-20T15:03:50Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1285,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1280,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2013-06-01T09:26:01Z",
+                            "description": "Cahill-Keyes map projection",
+                            "user": "espinielli",
+                            "gistId": "5689783",
+                            "updatedAt": "2015-12-17T23:29:34Z"
+                        },
+                        {
+                            "createdAt": "2012-12-01T05:12:55Z",
+                            "description": "World Map",
+                            "user": "mbostock",
+                            "gistId": "4180634",
+                            "updatedAt": "2016-04-20T13:59:18Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1286,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 81,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-03T18:17:59Z",
+                            "description": "dots on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "dc1ce756527c072885dc",
+                            "updatedAt": "2015-12-06T01:55:32Z"
+                        },
+                        {
+                            "createdAt": "2016-03-24T22:49:54Z",
+                            "description": "topojson on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "676bfe2b6e67e61e0656",
+                            "updatedAt": "2016-04-11T20:32:40Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1300,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1868,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-03T18:17:59Z",
+                            "description": "dots on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "dc1ce756527c072885dc",
+                            "updatedAt": "2015-12-06T01:55:32Z"
+                        },
+                        {
+                            "createdAt": "2015-12-01T04:40:58Z",
+                            "description": "dots on a map: setup",
+                            "user": "enjalot",
+                            "gistId": "18cb7a77b2d9de597b86",
+                            "updatedAt": "2016-04-29T10:08:29Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1300,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1006,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-01T06:10:27Z",
+                            "description": "dots on a map: lasso",
+                            "user": "enjalot",
+                            "gistId": "b95748220bd4752fb33a",
+                            "updatedAt": "2015-12-02T00:45:26Z"
+                        },
+                        {
+                            "createdAt": "2015-12-01T04:40:58Z",
+                            "description": "dots on a map: setup",
+                            "user": "enjalot",
+                            "gistId": "18cb7a77b2d9de597b86",
+                            "updatedAt": "2016-04-29T10:08:29Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1301,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1006,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-12-06T15:47:38Z",
+                            "description": "Heatmap of Force-Directed Graph Node Positions",
+                            "user": "rpgove",
+                            "gistId": "3ad7359dc3d6f0d25734",
+                            "updatedAt": "2015-12-06T20:34:09Z"
+                        },
+                        {
+                            "createdAt": "2012-11-12T21:31:44Z",
+                            "description": "Force-Directed Graph",
+                            "user": "mbostock",
+                            "gistId": "4062045",
+                            "updatedAt": "2016-04-30T00:53:20Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1510,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-01T16:18:25Z",
+                            "description": "d3-heatmap",
+                            "user": "fabid",
+                            "gistId": "0c4cf357ab5ed3e90382",
+                            "updatedAt": "2016-03-02T14:50:07Z"
+                        },
+                        {
+                            "createdAt": "2015-12-05T21:03:01Z",
+                            "description": "d3-hexbin demo",
+                            "user": "xaranke",
+                            "gistId": "b956ee7215b7b50bc78a",
+                            "updatedAt": "2015-12-05T21:38:20Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1671,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1668,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-01T16:18:25Z",
+                            "description": "d3-heatmap",
+                            "user": "fabid",
+                            "gistId": "0c4cf357ab5ed3e90382",
+                            "updatedAt": "2016-03-02T14:50:07Z"
+                        },
+                        {
+                            "createdAt": "2016-03-01T18:28:35Z",
+                            "description": "d3-returntimemap",
+                            "user": "fabid",
+                            "gistId": "024452c42b94723b401d",
+                            "updatedAt": "2016-03-02T15:09:41Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1671,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1672,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-01T16:18:25Z",
+                            "description": "d3-heatmap",
+                            "user": "fabid",
+                            "gistId": "0c4cf357ab5ed3e90382",
+                            "updatedAt": "2016-03-02T14:50:07Z"
+                        },
+                        {
+                            "createdAt": "2015-12-05T21:03:01Z",
+                            "description": "d3-hexbin demo",
+                            "user": "xaranke",
+                            "gistId": "b956ee7215b7b50bc78a",
+                            "updatedAt": "2015-12-05T21:38:20Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1671,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1668,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-01T16:18:25Z",
+                            "description": "d3-heatmap",
+                            "user": "fabid",
+                            "gistId": "0c4cf357ab5ed3e90382",
+                            "updatedAt": "2016-03-02T14:50:07Z"
+                        },
+                        {
+                            "createdAt": "2016-03-01T18:28:35Z",
+                            "description": "d3-returntimemap",
+                            "user": "fabid",
+                            "gistId": "024452c42b94723b401d",
+                            "updatedAt": "2016-03-02T15:09:41Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1671,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1672,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-01T18:28:35Z",
+                            "description": "d3-returntimemap",
+                            "user": "fabid",
+                            "gistId": "024452c42b94723b401d",
+                            "updatedAt": "2016-03-02T15:09:41Z"
+                        },
+                        {
+                            "createdAt": "2016-03-01T16:18:25Z",
+                            "description": "d3-heatmap",
+                            "user": "fabid",
+                            "gistId": "0c4cf357ab5ed3e90382",
+                            "updatedAt": "2016-03-02T14:50:07Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1672,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1671,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-01T18:28:35Z",
+                            "description": "d3-returntimemap",
+                            "user": "fabid",
+                            "gistId": "024452c42b94723b401d",
+                            "updatedAt": "2016-03-02T15:09:41Z"
+                        },
+                        {
+                            "createdAt": "2016-03-01T16:18:25Z",
+                            "description": "d3-heatmap",
+                            "user": "fabid",
+                            "gistId": "0c4cf357ab5ed3e90382",
+                            "updatedAt": "2016-03-02T14:50:07Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1672,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1671,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-20T00:54:18Z",
+                            "description": "State Grid Minimap",
+                            "user": "enjalot",
+                            "gistId": "1919bd8c2f574caa17ba",
+                            "updatedAt": "2015-11-24T00:22:39Z"
+                        },
+                        {
+                            "createdAt": "2015-04-21T21:55:55Z",
+                            "description": "State Grid",
+                            "user": "mbostock",
+                            "gistId": "29cc3cc4078091fd2115",
+                            "updatedAt": "2016-02-09T01:51:31Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1864,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 831,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-20T00:54:18Z",
+                            "description": "State Grid Minimap",
+                            "user": "enjalot",
+                            "gistId": "1919bd8c2f574caa17ba",
+                            "updatedAt": "2015-11-24T00:22:39Z"
+                        },
+                        {
+                            "createdAt": "2012-03-26T17:16:19Z",
+                            "description": "click-to-zoom via transform",
+                            "user": "mbostock",
+                            "gistId": "2206590",
+                            "updatedAt": "2016-02-09T01:17:03Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1864,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 136,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2015-11-20T00:54:18Z",
+                            "description": "State Grid Minimap",
+                            "user": "enjalot",
+                            "gistId": "1919bd8c2f574caa17ba",
+                            "updatedAt": "2015-11-24T00:22:39Z"
+                        },
+                        {
+                            "createdAt": "2012-03-26T17:16:19Z",
+                            "description": "click-to-zoom via transform",
+                            "user": "mbostock",
+                            "gistId": "2206590",
+                            "updatedAt": "2016-02-09T01:17:03Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1864,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 136,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-24T22:49:54Z",
+                            "description": "topojson on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "676bfe2b6e67e61e0656",
+                            "updatedAt": "2016-04-11T20:32:40Z"
+                        },
+                        {
+                            "createdAt": "2015-12-03T18:17:59Z",
+                            "description": "dots on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "dc1ce756527c072885dc",
+                            "updatedAt": "2015-12-06T01:55:32Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1868,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1300,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-03-24T22:49:54Z",
+                            "description": "topojson on a map: setup-gl",
+                            "user": "enjalot",
+                            "gistId": "676bfe2b6e67e61e0656",
+                            "updatedAt": "2016-04-11T20:32:40Z"
+                        },
+                        {
+                            "createdAt": "2015-12-01T04:40:58Z",
+                            "description": "dots on a map: setup",
+                            "user": "enjalot",
+                            "gistId": "18cb7a77b2d9de597b86",
+                            "updatedAt": "2016-04-29T10:08:29Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 1868,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1006,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-05-03T20:39:59Z",
+                            "description": "Linear SVG Gradient - A hexagonal SOM heatmap with color legend",
+                            "user": "nbremer",
+                            "gistId": "5cd07f2cb4ad202a9facfbd5d2bc842e",
+                            "updatedAt": "2016-05-03T20:44:18Z"
+                        },
+                        {
+                            "createdAt": "2016-04-03T10:50:59Z",
+                            "description": "Linear SVG Gradient - Weather Radial",
+                            "user": "nbremer",
+                            "gistId": "a43dbd5690ccd5ac4c6cc392415140e7",
+                            "updatedAt": "2016-05-03T20:43:26Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 2011,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 2009,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-05-03T20:39:59Z",
+                            "description": "Linear SVG Gradient - A hexagonal SOM heatmap with color legend",
+                            "user": "nbremer",
+                            "gistId": "5cd07f2cb4ad202a9facfbd5d2bc842e",
+                            "updatedAt": "2016-05-03T20:44:18Z"
+                        },
+                        {
+                            "createdAt": "2016-04-03T11:23:11Z",
+                            "description": "Linear SVG Gradient - Traffic accidents per Day & Hour combination",
+                            "user": "nbremer",
+                            "gistId": "62cf60e116ae821c06602793d265eaf6",
+                            "updatedAt": "2016-05-03T20:41:49Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 2011,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1910,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-05-03T20:39:59Z",
+                            "description": "Linear SVG Gradient - A hexagonal SOM heatmap with color legend",
+                            "user": "nbremer",
+                            "gistId": "5cd07f2cb4ad202a9facfbd5d2bc842e",
+                            "updatedAt": "2016-05-03T20:44:18Z"
+                        },
+                        {
+                            "createdAt": "2016-04-03T10:50:59Z",
+                            "description": "Linear SVG Gradient - Weather Radial",
+                            "user": "nbremer",
+                            "gistId": "a43dbd5690ccd5ac4c6cc392415140e7",
+                            "updatedAt": "2016-05-03T20:43:26Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 2011,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 2009,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                },
+                {
+                    "row": [
+                        {
+                            "createdAt": "2016-05-03T20:39:59Z",
+                            "description": "Linear SVG Gradient - A hexagonal SOM heatmap with color legend",
+                            "user": "nbremer",
+                            "gistId": "5cd07f2cb4ad202a9facfbd5d2bc842e",
+                            "updatedAt": "2016-05-03T20:44:18Z"
+                        },
+                        {
+                            "createdAt": "2016-04-03T11:23:11Z",
+                            "description": "Linear SVG Gradient - Traffic accidents per Day & Hour combination",
+                            "user": "nbremer",
+                            "gistId": "62cf60e116ae821c06602793d265eaf6",
+                            "updatedAt": "2016-05-03T20:41:49Z"
+                        }
+                    ],
+                    "meta": [
+                        {
+                            "id": 2011,
+                            "type": "node",
+                            "deleted": false
+                        },
+                        {
+                            "id": 1910,
+                            "type": "node",
+                            "deleted": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "errors": []
+}
