@@ -64,10 +64,17 @@ function parseResponse(responseData) {
     description: "Force-Directed Graph",
   };
 
+  // {
+  //   id: "3cc1a2a289dddbd64688",
+  //   user: "curran",
+  //   createdAt: "2015-09-06T00:53:52Z",
+  //   updatedAt: "2015-09-12T21:20:28Z",
+  //   description: "Fundamental Visualizations",
+  // };
+
   const neighborhood = {
     nodes: [],
     links: [],
-    degree: 0,
     neighborhoodRoots: {},
     nodesHash: {},
   };
@@ -76,11 +83,12 @@ function parseResponse(responseData) {
     //
     // Build the neighborhood of the currentNode
     //
-    const currentDegreeNodes = [];
+    const currentFirstNeighborNodes = [];
 
     // the selected node itself
     neighborhood.nodes.push(currentNode);
     neighborhood.nodesHash[currentNode.id] = true;
+    neighborhood.neighborhoodRoots[currentNode.id] = true;
 
     // add all first degree links that touch the selected node
     neighborhood.links = [
@@ -97,7 +105,7 @@ function parseResponse(responseData) {
           !neighborhood.nodesHash[link.source]
         ) {
           neighborhood.nodes.push(globalNodesHash[link.source]);
-          currentDegreeNodes.push(globalNodesHash[link.source]);
+          currentFirstNeighborNodes.push(globalNodesHash[link.source]);
           neighborhood.nodesHash[link.source] = true;
         }
       } else if (link.target !== currentNode.id) {
@@ -106,29 +114,25 @@ function parseResponse(responseData) {
           !neighborhood.nodesHash[link.target]
         ) {
           neighborhood.nodes.push(globalNodesHash[link.target]);
-          currentDegreeNodes.push(globalNodesHash[link.target]);
+          currentFirstNeighborNodes.push(globalNodesHash[link.target]);
           neighborhood.nodesHash[link.target] = true;
         }
       }
     });
 
-    // increment neighborhood subgraph degree
-    neighborhood.degree += 1;
-
-    // if our neighborhood has fewer degrees
-    // than we asked for, build neighbordhoods for each of
+    // build neighbordhoods for each of
     // the current neighborhood's new nodes
-    if (neighborhood.degree < degree) {
-      currentDegreeNodes.forEach((node) => {
-        // If we haven't already build a neighborhood
-        // for this particular node
-        if (!neighborhood[node.id]) {
+    currentFirstNeighborNodes.forEach((node) => {
+      // If we haven't already build a neighborhood
+      // for this particular node
+      if (!neighborhood.neighborhoodRoots[node.id]) {
+        if (degree > 0) {
           // recurse and build a new neighorhood with
           // this node at its center
-          buildNeighborhood(node);
+          buildNeighborhood(node, degree - 1);
         }
-      });
-    }
+      }
+    });
   }
 
   buildNeighborhood(selectedNode, 2);
