@@ -28,8 +28,8 @@ function render(canvas, context) {
   var simulation = d3
     .forceSimulation()
     .force("charge", d3.forceManyBody())
-    .force("x", d3.forceX(0).strength(0.003))
-    .force("y", d3.forceY(0).strength(0.003));
+    .force("x", d3.forceX(0).strength(0.03))
+    .force("y", d3.forceY(0).strength(0.03));
 
   //
   // load static graph data from a file
