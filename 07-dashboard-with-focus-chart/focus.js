@@ -1,6 +1,11 @@
 const canvas = document.querySelector("#focus-canvas-container > canvas");
 const context = canvas.getContext("2d");
 
+//
+// config
+//
+const nodeRadius = 22;
+
 // TODO use mutation observer or some other more
 // TODO elegant way to wait until CSS layout is complete
 setTimeout(() => {
@@ -347,16 +352,21 @@ function render(canvas, context) {
   }
 
   // a small function to ensure that
-  // points stay inside the canvas
-  function boundScalar(p) {
-    const halfEdge = 448;
-    const minP = Math.min(p, halfEdge);
+  // nodes stay inside the canvas
+  function boundScalar(p, axis) {
+    let halfEdge = 0;
+    if (axis === "x") {
+      halfEdge = width / 2 - nodeRadius;
+    } else if (axis === "y") {
+      halfEdge = height / 2 - nodeRadius;
+    }
+    const minP = Math.min(p[axis], halfEdge);
     return Math.max(-halfEdge, minP);
   }
 
   function drawLink(d) {
-    context.moveTo(boundScalar(d.source.x), boundScalar(d.source.y));
-    context.lineTo(boundScalar(d.target.x), boundScalar(d.target.y));
+    context.moveTo(boundScalar(d.source, "x"), boundScalar(d.source, "y"));
+    context.lineTo(boundScalar(d.target, "x"), boundScalar(d.target, "y"));
   }
 
   function drawNode(d) {
@@ -367,21 +377,22 @@ function render(canvas, context) {
     const image = imageCache[d.id];
     const iconWidth = 92;
     const iconHeight = 48;
-    const radius = 22;
 
     // draw border to check intution
     // context.strokeStyle = "darkgray";
     // context.strokeRect(-width / 2, -height / 2, width - 2, height - 2);
 
-    const minX = Math.min(d.x, width - radius);
-    // const nX = Math.max(-width / 2 + radius, minX);
+    const minX = Math.min(d.x, width - nodeRadius);
+    // const nX = Math.max(-width / 2 + nodeRadius, minX);
 
-    const minY = Math.min(d.y, height - 2 * radius);
-    // const nY = Math.max(-height / 2 - radius, minY);
+    const minY = Math.min(d.y, height - 2 * nodeRadius);
+    // const nY = Math.max(-height / 2 - nodeRadius, minY);
 
-    const nX = boundScalar(d.x);
-    const nY = boundScalar(d.y);
+    const nX = boundScalar(d, "x");
+    const nY = boundScalar(d, "y");
 
+    // log out coodrinates of nodes that travel outside
+    // the canvas bounds
     if (d.x !== nX || d.y !== nY) {
       console.log("d.x", d.x);
       console.log("d.y", d.y);
@@ -396,7 +407,7 @@ function render(canvas, context) {
     if (typeof image !== "undefined" && image.height > 0) {
       context.save();
       context.beginPath();
-      context.arc(nX, nY, radius, 0, Math.PI * 2, true);
+      context.arc(nX, nY, nodeRadius, 0, Math.PI * 2, true);
       context.closePath();
       context.clip();
 
@@ -421,7 +432,7 @@ function render(canvas, context) {
       // gray from the blockbuilder search results page
       context.fillStyle = "#EEEEEE";
       context.beginPath();
-      context.arc(nX, nY, radius, 0, Math.PI * 2, true);
+      context.arc(nX, nY, nodeRadius, 0, Math.PI * 2, true);
       context.closePath();
       context.fill();
 
