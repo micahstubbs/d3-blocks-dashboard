@@ -20,4 +20,17 @@ const Graph = ForceGraph3D()(elem)
       node, // lookAt ({ x, y, z })
       3000 // ms transition duration
     );
+
+    const contextNodeClickEvent = new CustomEvent("context-node-click", {
+      detail: node,
+    });
+    elem.dispatchEvent(contextNodeClickEvent);
+    elem.addEventListener(
+      "context-node-click",
+      (e) => {
+        console.log("event from context node click", e);
+        window.selectedNode = e.detail;
+      },
+      false
+    );
   });

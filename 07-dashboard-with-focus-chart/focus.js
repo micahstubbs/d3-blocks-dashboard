@@ -1,22 +1,21 @@
-const canvas = document.querySelector("#focus-canvas-container > canvas");
-const context = canvas.getContext("2d");
-
-//
-// config
-//
-const nodeRadius = 22;
-
 // TODO use mutation observer or some other more
 // TODO elegant way to wait until CSS layout is complete
-setTimeout(() => {
-  render(canvas, context);
-}, 50);
+// setTimeout(() => {
+//   render(canvas, context);
+// }, 50);
 
-function render(canvas, context) {
+window.renderFocus = function (selectedNode) {
+  //
+  // config
+  //
+  const nodeRadius = 22;
+
+  const canvas = document.querySelector("#focus-canvas-container > canvas");
+  const context = canvas.getContext("2d");
   const { width, height } =
     canvas.parentElement.parentElement.parentElement.getBoundingClientRect();
-  console.log("width", width);
-  console.log("height", height);
+  // console.log("width", width);
+  // console.log("height", height);
   canvas.setAttribute("width", width);
   canvas.setAttribute("height", height);
 
@@ -74,13 +73,13 @@ function render(canvas, context) {
     // to be passed dynamically by the
     // user interaction with the context chart
     // in the dashboard
-    const selectedNode = {
-      id: "4062045",
-      user: "mbostock",
-      createdAt: "2012-11-12T21:31:44Z",
-      updatedAt: "2017-11-27T10:50:58Z",
-      description: "Force-Directed Graph",
-    };
+    // const selectedNode = {
+    //   id: "4062045",
+    //   user: "mbostock",
+    //   createdAt: "2012-11-12T21:31:44Z",
+    //   updatedAt: "2017-11-27T10:50:58Z",
+    //   description: "Force-Directed Graph",
+    // };
 
     // {
     //   id: "3cc1a2a289dddbd64688",
@@ -393,13 +392,13 @@ function render(canvas, context) {
 
     // log out coodrinates of nodes that travel outside
     // the canvas bounds
-    if (d.x !== nX || d.y !== nY) {
-      console.log("d.x", d.x);
-      console.log("d.y", d.y);
-      console.log("nX", nX);
-      console.log("nY", nY);
-      console.log("------------");
-    }
+    // if (d.x !== nX || d.y !== nY) {
+    //   console.log("d.x", d.x);
+    //   console.log("d.y", d.y);
+    //   console.log("nX", nX);
+    //   console.log("nY", nY);
+    //   console.log("------------");
+    // }
 
     // draw images with a circular clip mask
     // so that rectangular thumbnail images become
@@ -456,4 +455,12 @@ function render(canvas, context) {
       imageCache[d.id] = image;
     });
   }
-}
+};
+
+Object.defineProperty(window, "selectedNode", {
+  set: function (v) {
+    // this is run every time selectedNode is assigned a value:
+    // the value being assigned can be found in v
+    window.renderFocus(v);
+  },
+});
