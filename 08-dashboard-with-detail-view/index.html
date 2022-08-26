@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dashboard with Focus Chart</title>
+    <title>Dashboard with Detail View</title>
     <!-- suppress favicon request -->
     <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
     <script src="//unpkg.com/3d-force-graph"></script>
@@ -19,15 +19,12 @@
       }
       .dashboard {
         display: flex;
-        align-content: stretch;
         height: 100%;
         width: 100%;
       }
       .dashboard > .section {
         flex-grow: 1;
         flex-shrink: 1;
-        flex-basis: auto;
-        align-content: stretch;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -52,6 +49,8 @@
       }
       .detail {
         height: 100%;
+        display: flex;
+        max-width: calc(100% - 22px);
       }
       #focus-canvas-container {
         text-align: center;
@@ -82,7 +81,9 @@
         </div>
       </div>
       <div class="section">
-        <div class="detail chart">detail</div>
+        <div class="detail chart">
+          <iframe id="detail-iframe" frameborder="0"></iframe>
+        </div>
       </div>
     </div>
     <script src="context.js"></script>
@@ -90,5 +91,6 @@
     <script src="forceInABox.js"></script>
     <script src="jsLouvain.js"></script>
     <script src="focus.js"></script>
+    <script src="detail.js"></script>
   </body>
 </html>
