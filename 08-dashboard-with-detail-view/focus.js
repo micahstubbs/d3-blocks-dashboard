@@ -326,17 +326,22 @@ window.renderFocus = function (selectedNode) {
         m[1] - height / 2,
         searchRadius
       );
-      const blockUrl = `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${
+      const blockUrl = `https://bl.ocks.org/${d.user ? `${d.user}/` : ""}${
         d.id
       }`;
-
+      const gistUrl = `https://gist.github.com/${d.user ? `${d.user}/` : ""}${
+        d.id
+      }`;
+      const blockUrlRaw = `https://bl.ockss.org/${
+        d.user ? `${d.user}/` : ""
+      }raw/${d.id}`;
       // open the page for the selected node in a new tab
       // window.open(blockUrl);
 
-      // show the page for the selected node
+      // show the visualization for the selected node
       // in the detail pane
       // in an iFrame
-      window.detailUrl = blockUrl;
+      window.detailUrl = blockUrlRaw;
     }
   }
 
