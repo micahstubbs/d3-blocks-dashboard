@@ -1,3 +1,7 @@
+const config = {
+  animateCameraOnClick: false,
+};
+
 const elem = document.getElementById("3d-graph");
 
 const { width: parentWidth, height: parentHeight } =
@@ -11,15 +15,16 @@ const Graph = ForceGraph3D()(elem)
   .nodeAutoColorBy("user")
   .onNodeHover((node) => (elem.style.cursor = node ? "pointer" : null))
   .onNodeClick((node) => {
-    // Aim at node from outside it
-    const distance = 40;
-    const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
-
-    Graph.cameraPosition(
-      { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
-      node, // lookAt ({ x, y, z })
-      3000 // ms transition duration
-    );
+    if (config.animateCameraOnClick) {
+      // Aim at node from outside it
+      const distance = 1000;
+      const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+      Graph.cameraPosition(
+        { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
+        node, // lookAt ({ x, y, z })
+        3000 // ms transition duration
+      );
+    }
 
     const contextNodeClickEvent = new CustomEvent("context-node-click", {
       detail: node,
