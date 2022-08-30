@@ -19,12 +19,12 @@ if (secrets) {
 http
   .createServer(app)
   .listen(HTTP_PORT, () =>
-    console.log("Dashboard Express server listening on port 80")
+    console.log(`Dashboard Express server listening on port ${HTTP_PORT}`)
   );
 https
   .createServer(options, app)
   .listen(HTTPS_PORT, () =>
-    console.log("Dashboard Express server listening port 443")
+    console.log(`Dashboard Express server listening port ${HTTPS_PORT}`)
   );
 
 app.get("/", (_req, res) => {
