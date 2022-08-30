@@ -28,7 +28,7 @@ https
   );
 
 app.get("/", (_req, res) => {
-  res.redirect(301, "/iterations/08-dashboard-with-detail-view/");
+  res.redirect(301, "/08-dashboard-with-detail-view");
 });
 
-app.use(express.static("/public"));
+app.use(express.static("/iterations"));
