@@ -4,6 +4,21 @@
 //   render(canvas, context);
 // }, 50);
 
+function setDetailUrl(d) {
+  const blockUrl = `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`;
+  const gistUrl = `http://gist.github.com/${d.user ? `${d.user}/` : ""}${d.id}`;
+  const blockUrlRaw = `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}raw/${
+    d.id
+  }`;
+  // open the page for the selected node in a new tab
+  // window.open(blockUrl);
+
+  // show the visualization for the selected node
+  // in the detail pane
+  // in an iFrame
+  window.detailUrl = blockUrlRaw;
+}
+
 window.renderFocus = function (selectedNode) {
   //
   // config
@@ -326,22 +341,7 @@ window.renderFocus = function (selectedNode) {
         m[1] - height / 2,
         searchRadius
       );
-      const blockUrl = `https://bl.ocks.org/${d.user ? `${d.user}/` : ""}${
-        d.id
-      }`;
-      const gistUrl = `https://gist.github.com/${d.user ? `${d.user}/` : ""}${
-        d.id
-      }`;
-      const blockUrlRaw = `https://bl.ockss.org/${
-        d.user ? `${d.user}/` : ""
-      }raw/${d.id}`;
-      // open the page for the selected node in a new tab
-      // window.open(blockUrl);
-
-      // show the visualization for the selected node
-      // in the detail pane
-      // in an iFrame
-      window.detailUrl = blockUrlRaw;
+      setDetailUrl(d);
     }
   }
 
@@ -469,6 +469,28 @@ window.renderFocus = function (selectedNode) {
   }
 };
 
+// TODO: make this concise, store in some state
+// TODO: that is shared with context.js
+const initialNode = {
+  id: "d5ef6c58f85aba2da48b",
+  user: "nbremer",
+  createdAt: "2015-06-30T10:02:50Z",
+  updatedAt: "2016-08-20T10:00:00Z",
+  description:
+    "Step 1 - Voronoi Scatterplot - Simple scatterplot with no Voronoi",
+};
+
+// if initialNode is present after the context chart renders
+// render focus chart once with initial node
+setTimeout(() => {
+  window.renderFocus(initialNode);
+}, 3150);
+
+setTimeout(() => {
+  setDetailUrl(initialNode);
+}, 5150);
+
+// listen for changes
 Object.defineProperty(window, "selectedNode", {
   set: function (v) {
     // this is run every time selectedNode is assigned a value:

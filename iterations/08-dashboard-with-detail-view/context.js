@@ -31,13 +31,9 @@ function zoomCameraToNode(node) {
   );
 }
 
-const intialNode = {
-  id: "f849f374f21c490c5490d501636bdb77",
-  user: "curran",
-  createdAt: "2017-09-13T09:01:39Z",
-  updatedAt: "2017-09-14T14:23:04Z",
-  description: "Data Table Summary",
-};
+// TODO: zoom the camera to the intial node
+// TODO: defined currently in focus.js
+// TODO: after the initial physics simulation
 
 const Graph = ForceGraph3D()(elem)
   .width(parentWidth)
