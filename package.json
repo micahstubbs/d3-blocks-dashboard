@@ -1,0 +1,16 @@
+{
+  "name": "d3-blocks-dashboard",
+  "version": "1.0.0",
+  "description": "a dashboard for exploring relationships between d3 examples (\"blocks\")",
+  "main": "server.js",
+  "repository": "git@github.com:micahstubbs/d3-blocks-dashboard.git",
+  "author": "Micah Stubbs <hi@micah.fyi>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
