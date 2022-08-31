@@ -2,7 +2,7 @@
 
 A prototype dashboard for exploring relationships between the tens of thousands of [d3](https://d3js.org) examples or "blocks" produced by the d3 community over the past decade or so.
 
-To explore, first click twice node or "star" in the 3D force graph on the top left "Context" panel. The local neighborhood subgraph of other d3 examples that either reference or are referenced by that example will appear in the bottom left "Focus" panel.  
+To explore, first click twice a node or "star" in the 3D force graph on the top left "Context" panel. The local neighborhood subgraph of other d3 examples that either reference or are referenced by the d3 example that this node represents will appear in the bottom left "Focus" panel.  
 
 Next, inspect the nodes in the "Focus" panel, and click one that looks interesting. The full visualization that corresponds with that node in the local subgraph will then be rendered in the "Detail" panel on the right. 
 
