@@ -18,7 +18,7 @@ const Graph = ForceGraph3D()(elem)
   .nodeLabel((node) => `${node.description} from ${node.user}`)
   .nodeAutoColorBy("user")
   .onNodeHover((node) => (elem.style.cursor = node ? "pointer" : null))
-  .onNodeClick((node) => {
+  .onNodeClick((node, event) => {
     if (config.animateCameraOnClick) {
       // Aim at node from outside it
       const distance = 1000;
@@ -30,17 +30,33 @@ const Graph = ForceGraph3D()(elem)
       );
     }
 
-    console.log("clicked node from context", node);
-    const contextNodeClickEvent = new CustomEvent("context-node-click", {
-      detail: node,
-    });
-    elem.dispatchEvent(contextNodeClickEvent);
-    elem.addEventListener(
-      "context-node-click",
-      (e) => {
-        console.log("event from context node click", e);
-        window.selectedNode = e.detail;
-      },
-      false
-    );
+    // if shift is held while the mouse is clicked
+    // open the block in a new window
+    if (event.shiftKey) {
+      if (!node) return;
+      window.open(
+        `http://bl.ocks.org/${node.user ? `${node.user}/` : ""}${node.id}`,
+        "_blank"
+      );
+    } else if (event.altKey) {
+      // if the alt key is held while the mouse is clicked
+      // open the gist in a new window
+      if (!node) return;
+      window.open(`https://gist.github.com/${node.user}/${node.id}`, "_blank");
+    } else {
+      // the node is click with no modifier keys
+      console.log("clicked node from context", node);
+      const contextNodeClickEvent = new CustomEvent("context-node-click", {
+        detail: node,
+      });
+      elem.dispatchEvent(contextNodeClickEvent);
+      elem.addEventListener(
+        "context-node-click",
+        (e) => {
+          console.log("event from context node click", e);
+          window.selectedNode = e.detail;
+        },
+        false
+      );
+    }
   });
