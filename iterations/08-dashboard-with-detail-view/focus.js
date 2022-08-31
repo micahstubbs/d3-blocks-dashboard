@@ -28,10 +28,6 @@ window.renderFocus = function (selectedNode) {
   canvas.setAttribute("width", width);
   canvas.setAttribute("height", height);
 
-  // append a div to div.focus to hold light gray paragraph text
-  // that says "click a node to see its details" and then says
-  // "shift+click to open the block in a new window" and then says
-  // "alt+click to open the gist in a new window"
   const detailText = document.createElement("div");
   detailText.classList.add("detail-text");
   detailText.innerHTML = `
@@ -39,20 +35,6 @@ window.renderFocus = function (selectedNode) {
     <p><strong>Click</strong> a node to see its vis</p>
     <p><strong>Alt+Click</strong> open gist in new tab</p>`;
   document.querySelector(".focus").appendChild(detailText);
-
-  // style the detail text with css so that the font size is small
-  // and the text is light gray
-  document.querySelector(".detail-text").style.cssText = `
-    width: calc(50% - 30px);
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 0.8rem;
-    font-family: 'Roboto', serif;
-    color: #darkgray;
-    position: absolute;
-    top: calc(50% - 1rem);
-  `;
 
   const searchRadius = 30;
 
