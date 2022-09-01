@@ -5,9 +5,12 @@
 // }, 50);
 
 function setDetailUrl(d) {
-  const blockUrlRaw = `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}raw/${
-    d.id
-  }`;
+  // the url of the current page
+  const url = new URL(window.location.href);
+  const secure = String(url).startsWith("https://");
+  const blockUrlRaw = `http${secure ? "s" : ""}://bl.ockss.org/${
+    d.user ? `${d.user}/` : ""
+  }raw/${d.id}`;
 
   // show the visualization for the selected node
   // in the detail pane
