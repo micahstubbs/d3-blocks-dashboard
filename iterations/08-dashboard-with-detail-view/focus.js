@@ -93,6 +93,7 @@ window.renderFocus = function (selectedNode) {
     // to be passed dynamically by the
     // user interaction with the context chart
     // in the dashboard
+
     // const selectedNode = {
     //   id: "4062045",
     //   user: "mbostock",
@@ -108,6 +109,17 @@ window.renderFocus = function (selectedNode) {
     //   updatedAt: "2015-09-12T21:20:28Z",
     //   description: "Fundamental Visualizations",
     // };
+
+    //
+    // This is a nice example node
+    //
+    // {
+    //   "id": "10527804",
+    //   "user": "monfera",
+    //   "createdAt": "2014-04-12T09:57:57Z",
+    //   "updatedAt": "2016-08-08T21:05:59Z",
+    //   "description": "circinus"
+    // }
 
     const neighborhood = {
       nodes: [],
