@@ -26,8 +26,18 @@ window.renderFocus = function (selectedNode) {
 
   const canvas = document.querySelector("#focus-canvas-container > canvas");
   const context = canvas.getContext("2d");
-  const { width, height } =
+  const margin = { top: 4, right: 0, bottom: 0, left: 0 };
+  const { width: greatGrandParentWidth, height: greatGrandParentHeight } =
     canvas.parentElement.parentElement.parentElement.getBoundingClientRect();
+  // set the width and height of div#focus-canvas-container
+  // to the width and height of the parent element
+  // so that the canvas is not stretched
+  canvas.parentElement.style.width = `${greatGrandParentWidth}px`;
+  canvas.parentElement.style.height = `${greatGrandParentHeight}px`;
+
+  const width = greatGrandParentWidth;
+  const height = greatGrandParentHeight;
+
   canvas.setAttribute("width", width);
   canvas.setAttribute("height", height);
 
@@ -361,6 +371,8 @@ window.renderFocus = function (selectedNode) {
       context.save();
       context.translate(width / 2, height / 2);
 
+      drawHelpText();
+
       context.beginPath();
       graph.links.forEach(drawLink);
       context.strokeStyle = "#aaa";
@@ -373,7 +385,6 @@ window.renderFocus = function (selectedNode) {
         context.fill();
       });
 
-      drawHelpText();
       context.restore();
     }
 
