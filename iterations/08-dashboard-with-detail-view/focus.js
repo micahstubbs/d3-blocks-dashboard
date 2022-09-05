@@ -59,7 +59,7 @@ window.renderFocus = function (selectedNode) {
     const padding = {
       top: 30,
       right: helpTextmaxWidth / 2 + 10,
-      bottom: 30,
+      bottom: 50,
       left: helpTextmaxWidth / 2 + 10,
     };
 
@@ -67,7 +67,8 @@ window.renderFocus = function (selectedNode) {
     context.textAlign = "center";
     wrapText({
       context,
-      text: "Shift+Click to open block in new tab",
+      text: "Click a node to see its vis",
+
       x: width / 2 - padding.right,
       y: -height / 2 + padding.top,
       maxWidth: helpTextmaxWidth,
@@ -77,19 +78,19 @@ window.renderFocus = function (selectedNode) {
     // top left corner with padding
     wrapText({
       context,
-      text: "Click a node to see its vis",
+      text: "Shift+Click to open block in a new tab",
       x: -width / 2 + padding.left,
       y: -height / 2 + padding.top,
       maxWidth: helpTextmaxWidth,
       lineHeight,
     });
 
-    // top center
+    // bottom right corner with padding
     wrapText({
       context,
-      text: "Alt+Click to open gist in new tab",
-      x: 0,
-      y: -height / 2 + padding.top,
+      text: "Alt+Click to open gist in a new tab",
+      x: width / 2 - padding.right,
+      y: height / 2 - padding.bottom,
       maxWidth: helpTextmaxWidth,
       lineHeight,
     });
