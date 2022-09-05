@@ -31,13 +31,69 @@ window.renderFocus = function (selectedNode) {
   canvas.setAttribute("width", width);
   canvas.setAttribute("height", height);
 
-  const detailText = document.createElement("div");
-  detailText.classList.add("detail-text");
-  detailText.innerHTML = `
-    <p><strong>Shift+Click</strong> open block in new tab</p>
-    <p><strong>Click</strong> a node to see its vis</p>
-    <p><strong>Alt+Click</strong> open gist in new tab</p>`;
-  document.querySelector(".focus").appendChild(detailText);
+  function wrapText({ context, text, x, y, maxWidth, lineHeight }) {
+    const words = text.split(" ");
+    let line = "";
+
+    for (let n = 0; n < words.length; n++) {
+      const testLine = line + words[n] + " ";
+      const metrics = context.measureText(testLine);
+      const testWidth = metrics.width;
+      if (testWidth > maxWidth && n > 0) {
+        context.fillText(line, x, y);
+        line = words[n] + " ";
+        y += lineHeight;
+      } else {
+        line = testLine;
+      }
+    }
+    context.fillText(line, x, y);
+  }
+
+  const helpTextmaxWidth = 80;
+  const lineHeight = 20;
+  // draw the focus help text the canvas
+  function drawHelpText() {
+    context.font = "12px sans-serif";
+    context.fillStyle = "lightgray";
+    const padding = {
+      top: 30,
+      right: helpTextmaxWidth / 2 + 10,
+      bottom: 30,
+      left: helpTextmaxWidth / 2 + 10,
+    };
+
+    // top right corner with padding
+    context.textAlign = "center";
+    wrapText({
+      context,
+      text: "Shift+Click to open block in new tab",
+      x: width / 2 - padding.right,
+      y: -height / 2 + padding.top,
+      maxWidth: helpTextmaxWidth,
+      lineHeight,
+    });
+
+    // top left corner with padding
+    wrapText({
+      context,
+      text: "Click a node to see its vis",
+      x: -width / 2 + padding.left,
+      y: -height / 2 + padding.top,
+      maxWidth: helpTextmaxWidth,
+      lineHeight,
+    });
+
+    // top center
+    wrapText({
+      context,
+      text: "Alt+Click to open gist in new tab",
+      x: 0,
+      y: -height / 2 + padding.top,
+      maxWidth: helpTextmaxWidth,
+      lineHeight,
+    });
+  }
 
   const searchRadius = 30;
 
@@ -94,6 +150,10 @@ window.renderFocus = function (selectedNode) {
     // user interaction with the context chart
     // in the dashboard
 
+    //
+    // These are some nice example nodes
+    //
+
     // const selectedNode = {
     //   id: "4062045",
     //   user: "mbostock",
@@ -110,9 +170,6 @@ window.renderFocus = function (selectedNode) {
     //   description: "Fundamental Visualizations",
     // };
 
-    //
-    // This is a nice example node
-    //
     // {
     //   "id": "10527804",
     //   "user": "monfera",
@@ -315,6 +372,7 @@ window.renderFocus = function (selectedNode) {
         context.fill();
       });
 
+      drawHelpText();
       context.restore();
     }
 
