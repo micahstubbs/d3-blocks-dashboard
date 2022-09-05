@@ -14,4 +14,4 @@ The charts shown in this prototype are iterations on the blocks:
 
 The block [Step 1 - Voronoi Scatterplot - Simple scatterplot with no Voronoi](http://bl.ocks.org/nbremer/d5ef6c58f85aba2da48b) from [@NadiehBremer](https://twitter.com/NadiehBremer) is shown in the Detail panel on the right as the currently selected block.
 
-Try the live dashboard at [d3.micah.fyi/08-dashboard-with-detail-view/](http://d3.micah.fyi/08-dashboard-with-detail-view/)
+Try the live dashboard at [d3.micah.fyi/08-dashboard-with-detail-view/](https://d3.micah.fyi/08-dashboard-with-detail-view/)
