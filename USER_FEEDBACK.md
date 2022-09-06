@@ -46,3 +46,9 @@ One thing that happens sometimes is that I lose the elements around the block:
 ![raw-block-france.png](./img/raw-block-france.png)
 
 Maybe the block just has nothing around it? No title or anything?
+
+### User D
+
+If the 3D network layout does not depend entirely on the data source, maybe you can start with a bit of precalculated 3D layout to skip the initial ticks.
+
+A little text search would be nice.
