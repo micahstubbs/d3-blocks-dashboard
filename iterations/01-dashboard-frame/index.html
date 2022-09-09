@@ -54,5 +54,21 @@
         <div class="detail chart">detail</div>
       </div>
     </div>
+    <script>
+      // on left arrow key down, navigate to the last page
+      // which is /09-dashboard-bar-table/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowLeft") {
+          window.location.href = "../09-dashboard-bar-table/index.html";
+        }
+      });
+      // on right arrow key down, navigate to next page
+      // which is /02-dashboard-frame-dark-mode/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowRight") {
+          window.location.href = "../02-dashboard-frame-dark-mode/";
+        }
+      });
+    </script>
   </body>
 </html>

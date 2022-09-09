@@ -57,6 +57,24 @@
       <div class="section">
         <div class="detail chart">detail</div>
       </div>
+      <!-- add a script tag -->
+      <script>
+        // on left arrow key down, navigate to the previous page,
+        // which is /01-dashboard-frame/index.html
+        document.addEventListener("keydown", function (event) {
+          if (event.key === "ArrowLeft") {
+            window.location.href = "../01-dashboard-frame/index.html";
+          }
+        });
+        // on right arrow key down, navigate to next page
+        // which is /03-3d-network-chart-standalone/index.html
+        document.addEventListener("keydown", function (event) {
+          if (event.key === "ArrowRight") {
+            window.location.href =
+              "../03-3d-network-chart-standalone/index.html";
+          }
+        });
+      </script>
     </div>
   </body>
 </html>

@@ -124,5 +124,21 @@
     <script src="jsLouvain.js"></script>
     <script src="focus.js"></script>
     <script src="detail.js"></script>
+    <script>
+      // on left arrow key down, navigate to the previous page
+      // which is /08-dashboard-with-detail-view/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowLeft") {
+          window.location.href = "../08-dashboard-with-detail-view/";
+        }
+      });
+      // on right arrow key down, navigate to the first page
+      // which is /01-dashboard-frame/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowRight") {
+          window.location.href = "../01-dashboard-frame/";
+        }
+      });
+    </script>
   </body>
 </html>

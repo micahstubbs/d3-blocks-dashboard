@@ -12,4 +12,20 @@
 <body>
   <div id="3d-graph"></div>
   <script src="vis.js"></script>
+  <script>
+    // on left arrow key down, navigate to previous page
+    // which is /02-dashboard-frame-dark-mode/index.html
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowLeft") {
+        window.location.href = "../02-dashboard-frame-dark-mode/index.html";
+      }
+    });
+    // on right arrow key down, navigate to next page
+    // which is /04-dashboard-with-context-chart/index.html
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowRight") {
+        window.location.href = "../04-dashboard-with-context-chart/";
+      }
+    });
+  </script>
 </body>

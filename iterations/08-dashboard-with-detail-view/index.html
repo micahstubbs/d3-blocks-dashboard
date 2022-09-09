@@ -102,5 +102,22 @@
     <script src="jsLouvain.js"></script>
     <script src="focus.js"></script>
     <script src="detail.js"></script>
+    <script>
+      // on left arrow key down, navigate to the previous page
+      // which is /07-dashboard-with-focus-chart/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.keyCode === 37) {
+          window.location.href = "../07-dashboard-with-focus-chart/";
+        }
+      });
+
+      // on right arrow key down, navigate to next page
+      // which is /09-dashboard-bar-table/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.keyCode === 39) {
+          window.location.href = "../09-dashboard-bar-table/";
+        }
+      });
+    </script>
   </body>
 </html>

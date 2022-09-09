@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<meta charset='utf-8'>
+<meta charset="utf-8" />
 <style>
-img {
-  max-width: 230px;
-  max-height: 120px;
-}
+  img {
+    max-width: 230px;
+    max-height: 120px;
+  }
 
-#canvas-container {
-  width: 100%;
-  text-align: center;
-}
+  #canvas-container {
+    width: 100%;
+    text-align: start;
+  }
 
-canvas {
-  display: inline;
-}
+  canvas {
+    display: inline;
+  }
 </style>
-<a target='_blank' style='outline:none;'>
-  <div id='canvas-container'>
-    <canvas width='960' height='960'>Your browser does not support canvas</canvas>
-  </div>
-</a>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.js'></script>
-<script src="forceInABox.js"></script>
-<script src='jsLouvain.js'></script>
-<script src='vis.js'></script>
+<body>
+  <a target="_blank" style="outline: none">
+    <div id="canvas-container">
+      <canvas width="960" height="960"
+        >Your browser does not support canvas</canvas
+      >
+    </div>
+  </a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.js"></script>
+  <script src="forceInABox.js"></script>
+  <script src="jsLouvain.js"></script>
+  <script src="vis.js"></script>
+  <script>
+    // on left arrow key down, navigate to the previous page
+    // which is /04-dashboard-with-context-chart/index.html
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowLeft") {
+        window.location.href = "../04-dashboard-with-context-chart/";
+      }
+    });
+    // on right arrow key down, navigate to next page
+    // which is /06-2d-network-chart-iteration-standalone/index.html
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowRight") {
+        window.location.href = "../06-2d-network-chart-iteration-standalone/";
+      }
+    });
+  </script>
+</body>

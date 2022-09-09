@@ -68,5 +68,21 @@
       </div>
     </div>
     <script src="context.js"></script>
+    <script>
+      // on left arrow key down, navigate to previous page
+      // which is /03-3d-network-chart-standalone/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.keyCode === 37) {
+          window.location.href = "../03-3d-network-chart-standalone/index.html";
+        }
+      });
+      // on right arrow key down, navigate to next page
+      // which is /05-2d-network-chart-standalone/index.html
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowRight") {
+          window.location.href = "../05-2d-network-chart-standalone/";
+        }
+      });
+    </script>
   </body>
 </html>

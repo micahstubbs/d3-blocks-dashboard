@@ -90,5 +90,21 @@
     <script src="forceInABox.js"></script>
     <script src="jsLouvain.js"></script>
     <script src="focus.js"></script>
+    <script>
+      // on left arrow key down, navigate to previous page
+      // which is /06-2d-network-chart-iteration-standalone/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowLeft") {
+          window.location.href = "../06-2d-network-chart-iteration-standalone/";
+        }
+      });
+      // on right arrow key down, navigate to next page
+      // which is /08-dashboard-with-detail-view/index.html
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowRight") {
+          window.location.href = "../08-dashboard-with-detail-view/";
+        }
+      });
+    </script>
   </body>
 </html>
