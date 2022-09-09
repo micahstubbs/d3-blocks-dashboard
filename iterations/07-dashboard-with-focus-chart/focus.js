@@ -457,6 +457,24 @@ window.renderFocus = function (selectedNode) {
   }
 };
 
+// TODO: make this concise, store in some state
+// TODO: that is shared with context.js
+const initialNode = {
+  id: "d5ef6c58f85aba2da48b",
+  user: "nbremer",
+  createdAt: "2015-06-30T10:02:50Z",
+  updatedAt: "2016-08-20T10:00:00Z",
+  description:
+    "Step 1 - Voronoi Scatterplot - Simple scatterplot with no Voronoi",
+};
+
+// if initialNode is present after the context chart renders
+// render focus chart once with initial node
+setTimeout(() => {
+  window.renderFocus(initialNode);
+}, 3150);
+
+// listen to changes
 Object.defineProperty(window, "selectedNode", {
   set: function (v) {
     // this is run every time selectedNode is assigned a value:
