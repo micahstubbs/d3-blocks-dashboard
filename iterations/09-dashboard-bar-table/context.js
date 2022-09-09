@@ -38,7 +38,8 @@ const renderBarChart = async ({
 }) => {
   // set the dimensions and margins of the graph
   const margin = { top: 20, right: 30, bottom: 60, left: 160 };
-  const width = parentWidth - margin.left - margin.right;
+  const magicNoScrollBar = 15
+  const width = parentWidth - margin.left - margin.right - magicNoScrollBar;
   const height = parentHeight - margin.top - margin.bottom;
 
   // show all, allow scrolling
