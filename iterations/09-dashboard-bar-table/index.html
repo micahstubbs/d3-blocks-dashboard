@@ -38,7 +38,6 @@
       }
       .chart {
         background-color: rgb(29, 27, 27);
-        margin: 4px;
         border-radius: 3px;
         font-size: 4em;
         text-align: center;
@@ -47,15 +46,44 @@
         justify-content: center;
         align-items: center;
       }
+      /* style the first .section */
+      .dashboard > .section:first-child {
+        max-width: calc(100% - 1100px);
+      }
+      /* style the second section */
+      .dashboard > .section:nth-child(2) {
+        max-width: 980px;
+      }
       .context,
       .focus {
         height: 50%;
+        margin: 8px;
         display: flex;
+        overflow: hidden;
       }
       .detail {
         height: 100%;
+        margin: 4px;
         display: flex;
-        max-width: calc(100% - 22px);
+      }
+      .context #bar-chart {
+        overflow-y: scroll;
+      }
+      #table-scroll {
+        overflow: auto;
+        margin-top: 20px;
+      }
+      .focus table {
+        font: Roboto;
+        font-weight: 400;
+        color: rgb(221, 217, 217);
+      }
+      .focus table th {
+        position: sticky;
+        white-space: nowrap;
+      }
+      .focus table tr {
+        white-space: nowrap;
       }
       #focus-canvas-container {
         text-align: center;
@@ -68,7 +96,7 @@
         max-height: 120px;
       }
       .detail {
-        background-color: white;
+        background-color: rgb(69, 69, 69);
         min-width: 960px;
         min-height: 500px;
       }
@@ -78,16 +106,10 @@
     <div class="dashboard">
       <div class="section">
         <div class="context chart">
-          <div id="3d-graph"></div>
+          <div id="bar-chart"></div>
         </div>
         <div class="focus chart">
-          <a target="_blank" style="outline: none">
-            <div id="focus-canvas-container">
-              <canvas width="400" height="300"
-                >Your browser does not support canvas</canvas
-              >
-            </div>
-          </a>
+          <div id="table-scroll"></div>
         </div>
       </div>
       <div class="section">
@@ -97,7 +119,7 @@
       </div>
     </div>
     <script src="context.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.js"></script>
+    <script src="d3.v6.js"></script>
     <script src="forceInABox.js"></script>
     <script src="jsLouvain.js"></script>
     <script src="focus.js"></script>
