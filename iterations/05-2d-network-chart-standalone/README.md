@@ -13,7 +13,7 @@ RETURN n, m
 
 the cool thing about this is the related nodes may not have `map` anywhere in the description, but we can still use some known graph of d3 example relationships (in this case README citations) to infer that they are relevant to a map keyword search
 
-a fork of the block [d3 example graph search - user query](https://bl.ocks.org/micahstubbs/8a3779fc211b45ef9744100d1307f0fa) from [@micahstubbs](https://twitter.com/micahstubbs)
+a fork of the block [d3 example graph search - user query](https://bl.ockss.org/micahstubbs/8a3779fc211b45ef9744100d1307f0fa) from [@micahstubbs](https://twitter.com/micahstubbs)
 
 **see also**
 

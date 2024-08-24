@@ -259,7 +259,7 @@ function drawGraph(graph) {
     a.removeAttribute("title");
     a.setAttribute(
       "href",
-      `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`
+      `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}${d.id}`
     );
     a.setAttribute(
       "title",
