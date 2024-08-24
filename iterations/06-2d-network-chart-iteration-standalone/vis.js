@@ -292,7 +292,7 @@ function drawGraph(graph) {
     a.removeAttribute("title");
     a.setAttribute(
       "href",
-      `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`
+      `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}${d.id}`
     );
     a.setAttribute(
       "title",
@@ -427,7 +427,7 @@ function cacheImages(graph, imageCache) {
   graph.nodes.forEach((d) => {
     const image = new Image();
 
-    image.src = `https://bl.ocks.org/${d.user ? `${d.user}/` : ""}raw/${
+    image.src = `https://bl.ockss.org/${d.user ? `${d.user}/` : ""}raw/${
       d.id
     }/thumbnail.png`;
     // image.onload = function() {

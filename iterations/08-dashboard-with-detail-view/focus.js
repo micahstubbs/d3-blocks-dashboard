@@ -411,7 +411,7 @@ window.renderFocus = function (selectedNode) {
       a.removeAttribute("title");
       a.setAttribute(
         "href",
-        `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`
+        `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}${d.id}`
       );
       a.setAttribute(
         "title",
@@ -434,7 +434,7 @@ window.renderFocus = function (selectedNode) {
       if (d3.event.shiftKey) {
         if (!d) return;
         window.open(
-          `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`,
+          `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}${d.id}`,
           "_blank"
         );
       } else if (d3.event.altKey) {
@@ -561,7 +561,7 @@ window.renderFocus = function (selectedNode) {
     graph.nodes.forEach((d) => {
       const image = new Image();
 
-      image.src = `https://bl.ocks.org/${d.user ? `${d.user}/` : ""}raw/${
+      image.src = `https://bl.ockss.org/${d.user ? `${d.user}/` : ""}raw/${
         d.id
       }/thumbnail.png`;
       // image.onload = function() {

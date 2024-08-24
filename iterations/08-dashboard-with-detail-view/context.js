@@ -35,7 +35,7 @@ const Graph = ForceGraph3D()(elem)
     if (event.shiftKey) {
       if (!node) return;
       window.open(
-        `http://bl.ocks.org/${node.user ? `${node.user}/` : ""}${node.id}`,
+        `http://bl.ockss.org/${node.user ? `${node.user}/` : ""}${node.id}`,
         "_blank"
       );
     } else if (event.altKey) {
