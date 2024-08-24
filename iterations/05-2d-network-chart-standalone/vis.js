@@ -276,7 +276,7 @@ function drawGraph(graph) {
       m[1] - height / 2,
       searchRadius
     );
-    const blockUrl = `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${d.id}`;
+    const blockUrl = `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}${d.id}`;
     window.open(blockUrl);
   }
 }

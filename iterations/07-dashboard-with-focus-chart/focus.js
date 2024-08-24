@@ -326,7 +326,7 @@ window.renderFocus = function (selectedNode) {
         m[1] - height / 2,
         searchRadius
       );
-      const blockUrl = `http://bl.ocks.org/${d.user ? `${d.user}/` : ""}${
+      const blockUrl = `http://bl.ockss.org/${d.user ? `${d.user}/` : ""}${
         d.id
       }`;
       window.open(blockUrl);
